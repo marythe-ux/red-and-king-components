@@ -1,0 +1,24 @@
+{
+  "extends": ["react-app", "react-app/jest"],
+  "overrides": [
+    {
+      "files": ["**/*.stories.*"],
+      "rules": {
+        "import/no-anonymous-default-export": "off"
+      }
+    }
+  ],
+  "rules": {
+    "no-unused-expressions": 0,
+    "padded-blocks": 0,
+    "max-len": 0,
+    "no-tabs": 0,
+    "indent": 0,
+    "no-new-object": 0,
+    "no-undef": 0,
+    "no-console": 1,
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-array-constructor": "off",
+    "@typescript-eslint/no-empty-function": "off"
+  }
+}

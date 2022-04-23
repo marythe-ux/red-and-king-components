@@ -3,6 +3,8 @@
 A React components library for Red&King project.
 
 [![coverage + storybook](https://github.com/marythe-ux/red-and-king-components/actions/workflows/coverage-storybook.yml/badge.svg)](https://github.com/marythe-ux/red-and-king-components/actions/workflows/coverage-storybook.yml)
+[![Node.js Package](https://github.com/marythe-ux/red-and-king-components/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/marythe-ux/red-and-king-components/actions/workflows/npm-publish.yml)
+[![npm version](https://badge.fury.io/js/red-and-king-components.svg)](https://badge.fury.io/js/red-and-king-components)
 
 - [Coverage](https://marythe-ux.github.io/red-and-king-components/coverage/lcov-report/)
 - [Storybook](https://marythe-ux.github.io/red-and-king-components/storybook)

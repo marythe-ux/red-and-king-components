@@ -6,7 +6,7 @@ exports[`Storyshots Example/Button Large 1`] = `
   size="large"
   type="button"
 >
-  Button
+  Button 3
 </button>
 `;
 
@@ -16,7 +16,7 @@ exports[`Storyshots Example/Button Primary 1`] = `
   color="primary"
   type="button"
 >
-  Button
+  Button 1
 </button>
 `;
 
@@ -26,7 +26,7 @@ exports[`Storyshots Example/Button Secondary 1`] = `
   color="secondary"
   type="button"
 >
-  Button
+  Button 2
 </button>
 `;
 
@@ -36,7 +36,7 @@ exports[`Storyshots Example/Button Small 1`] = `
   size="small"
   type="button"
 >
-  Button
+  Button 4
 </button>
 `;
 

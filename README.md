@@ -2,10 +2,10 @@
 
 A React components library for Red&King project.
 
-## Doc pages
+[![coverage + storybook](https://github.com/marythe-ux/red-and-king-components/actions/workflows/coverage-storybook.yml/badge.svg)](https://github.com/marythe-ux/red-and-king-components/actions/workflows/coverage-storybook.yml)
 
-- [Storybook](https://marythe-ux.github.io/storybook)
-- [Coverage](https://marythe-ux.github.io/coverage/lcov-repor)
+- [Coverage](https://marythe-ux.github.io/red-and-king-components/coverage/lcov-report/)
+- [Storybook](https://marythe-ux.github.io/red-and-king-components/storybook)
 
 ---
 

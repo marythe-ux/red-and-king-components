@@ -45,18 +45,17 @@
     "not op_mini all"
   ],
   "engines": {
-    "node": "16.13.0",
-    "npm": "8.1.4",
-    "yarn": "1.22.17"
+    "node": ">=16.13.0 <17",
+    "yarn": "~1.22.17"
   },
   "scripts": {
+    "test-cover": "yarn test --coverage && mv  coverage docs/coverage",
     "build-storybook": "rm -rf ./docs/storybook && build-storybook -o ./docs/storybook",
     "build": "rm -rf ./dist && tsc -p ./tsconfig-build.json",
     "lint": "eslint --max-warnings=0 'src/**/*.{ts,tsx}'",
     "prettier": "prettier  --write 'src/**/*.{ts,tsx}'",
     "start": "start-storybook -p 6006",
     "storybook": "yarn start",
-    "test-cover": "rm -rf ./coverage && yarn test --coverage && mv ./coverage ./docs/coverage",
     "test": "react-scripts test --watchAll=false",
     "prepare": "husky install",
     "postinstall": "yarn prepare"

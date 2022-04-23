@@ -31,23 +31,23 @@ export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
   color: 'primary',
-  label: 'Button',
+  label: 'Button 1',
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
   color: 'secondary',
-  label: 'Button',
+  label: 'Button 2',
 };
 
 export const Large = Template.bind({});
 Large.args = {
   size: 'large',
-  label: 'Button',
+  label: 'Button 3',
 };
 
 export const Small = Template.bind({});
 Small.args = {
   size: 'small',
-  label: 'Button',
+  label: 'Button 4',
 };

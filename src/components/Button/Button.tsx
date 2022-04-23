@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from '@emotion/styled-base';
+import styled from '@emotion/styled';
 
 interface ButtonStyledProps {
   size?: 'small' | 'medium' | 'large';

@@ -1,10 +1,12 @@
-name: coverage + storybook
+name: Node.js Package
+
 on:
-  push:
-    branches:
-      - main
+  release:
+    types: [created]
+    # ╰─ git tag  -a v0.1.1 -m"Release v0.1.1 version"
+
 jobs:
-  test-cover:
+  test:
     concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
@@ -14,10 +16,10 @@ jobs:
           node-version: 16
       - run: yarn install --pure-lock
       - run: yarn lint
-      - run: yarn test-cover
+      - run: yarn test
 
-  build-and-deploy:
-    needs: test-cover
+  dist-and-publish:
+    needs: test
     concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
@@ -25,11 +27,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          registry-url: https://registry.npmjs.org/
       - run: yarn install --pure-lock
-      - run: yarn build-storybook
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4.3.0
-        with:
-          branch: gh-pages
-          folder: docs
+      - run: yarn dist
+      - run: yarn publishNpm
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

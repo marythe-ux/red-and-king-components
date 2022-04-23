@@ -5,8 +5,9 @@
     "name": "Jorge Rojo"
   },
   "repository": "git@github.com:marythe-ux/red-and-king-components.git",
-  "version": "1.0.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
@@ -49,15 +50,18 @@
     "yarn": "~1.22.17"
   },
   "scripts": {
-    "test-cover": "yarn test --coverage && mv  coverage docs/coverage",
     "build-storybook": "rm -rf ./docs/storybook && build-storybook -o ./docs/storybook",
     "build": "rm -rf ./dist && tsc -p ./tsconfig-build.json",
+    "dist": "yarn build && cp ./package.json ./dist/package.json && cd ./dist && yarn pack",
     "lint": "eslint --max-warnings=0 'src/**/*.{ts,tsx}'",
+    "postinstall": "yarn prepare",
+    "prepare": "husky install",
     "prettier": "prettier  --write 'src/**/*.{ts,tsx}'",
+    "publishNpm": "yarn publish",
     "start": "start-storybook -p 6006",
     "storybook": "yarn start",
+    "test-cover": "yarn test --coverage && mv  coverage docs/coverage",
     "test": "react-scripts test --watchAll=false",
-    "prepare": "husky install",
-    "postinstall": "yarn prepare"
+    "set-release-tag": "RELEASE_VERSION=$(node -p \"require('./package.json').version\") && git tag -a v$RELEASE_VERSION -m\"Release v$RELEASE_VERSION version\""
   }
 }

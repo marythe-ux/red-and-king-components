@@ -2,7 +2,7 @@
 
 exports[`Storyshots Example/Button Large 1`] = `
 <button
-  className="css-1ufkxzc"
+  className="css-10s6923"
   size="large"
   type="button"
 >
@@ -12,7 +12,7 @@ exports[`Storyshots Example/Button Large 1`] = `
 
 exports[`Storyshots Example/Button Primary 1`] = `
 <button
-  className="css-ebxlgt"
+  className="css-dm787s"
   color="primary"
   type="button"
 >
@@ -22,7 +22,7 @@ exports[`Storyshots Example/Button Primary 1`] = `
 
 exports[`Storyshots Example/Button Secondary 1`] = `
 <button
-  className="css-18e869x"
+  className="css-17u66je"
   color="secondary"
   type="button"
 >
@@ -32,7 +32,7 @@ exports[`Storyshots Example/Button Secondary 1`] = `
 
 exports[`Storyshots Example/Button Small 1`] = `
 <button
-  className="css-eapu4d"
+  className="css-qu3hd2"
   size="small"
   type="button"
 >
@@ -85,7 +85,7 @@ exports[`Storyshots Example/Header Logged In 1`] = `
         !
       </span>
       <button
-        className="css-135njdy"
+        className="css-t1mlsy"
         color="secondary"
         size="small"
         type="button"
@@ -133,7 +133,7 @@ exports[`Storyshots Example/Header Logged Out 1`] = `
     </div>
     <div>
       <button
-        className="css-135njdy"
+        className="css-t1mlsy"
         color="secondary"
         size="small"
         type="button"
@@ -141,7 +141,7 @@ exports[`Storyshots Example/Header Logged Out 1`] = `
         Log in
       </button>
       <button
-        className="css-eapu4d"
+        className="css-qu3hd2"
         size="small"
         type="button"
       >
@@ -189,7 +189,7 @@ exports[`Storyshots Example/Page Logged In 1`] = `
       </div>
       <div>
         <button
-          className="css-135njdy"
+          className="css-t1mlsy"
           color="secondary"
           onClick={[Function]}
           size="small"
@@ -198,7 +198,7 @@ exports[`Storyshots Example/Page Logged In 1`] = `
           Log in
         </button>
         <button
-          className="css-eapu4d"
+          className="css-qu3hd2"
           onClick={[Function]}
           size="small"
           type="button"
@@ -329,7 +329,7 @@ exports[`Storyshots Example/Page Logged Out 1`] = `
       </div>
       <div>
         <button
-          className="css-135njdy"
+          className="css-t1mlsy"
           color="secondary"
           onClick={[Function]}
           size="small"
@@ -338,7 +338,7 @@ exports[`Storyshots Example/Page Logged Out 1`] = `
           Log in
         </button>
         <button
-          className="css-eapu4d"
+          className="css-qu3hd2"
           onClick={[Function]}
           size="small"
           type="button"

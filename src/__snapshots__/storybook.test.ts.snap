@@ -22,7 +22,7 @@ exports[`Storyshots Example/Button Primary 1`] = `
 
 exports[`Storyshots Example/Button Secondary 1`] = `
 <button
-  className="css-18e869x"
+  className="css-fduzt5"
   color="secondary"
   type="button"
 >
@@ -85,7 +85,7 @@ exports[`Storyshots Example/Header Logged In 1`] = `
         !
       </span>
       <button
-        className="css-135njdy"
+        className="css-5z31xm"
         color="secondary"
         size="small"
         type="button"
@@ -133,7 +133,7 @@ exports[`Storyshots Example/Header Logged Out 1`] = `
     </div>
     <div>
       <button
-        className="css-135njdy"
+        className="css-5z31xm"
         color="secondary"
         size="small"
         type="button"
@@ -189,7 +189,7 @@ exports[`Storyshots Example/Page Logged In 1`] = `
       </div>
       <div>
         <button
-          className="css-135njdy"
+          className="css-5z31xm"
           color="secondary"
           onClick={[Function]}
           size="small"
@@ -329,7 +329,7 @@ exports[`Storyshots Example/Page Logged Out 1`] = `
       </div>
       <div>
         <button
-          className="css-135njdy"
+          className="css-5z31xm"
           color="secondary"
           onClick={[Function]}
           size="small"

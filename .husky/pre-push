@@ -1,4 +1,3 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
-
-yarn lint && yarn test
+. "$(dirname "$0")/run-not-in-branches.sh" "yarn lint" "yarn test"

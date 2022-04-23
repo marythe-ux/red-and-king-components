@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from '@emotion/styled-base';
+import styled from '@emotion/styled';
 
 interface ButtonStyledProps {
   size?: 'small' | 'medium' | 'large';
@@ -16,7 +16,7 @@ const styledPropHandler = {
       case 'secondary':
         return `
           color: #333;
-          background-color: transparent;
+          background-color: #FFF;
           box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 1px 2px inset;
         `;
       default:

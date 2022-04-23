@@ -5,7 +5,7 @@
     "name": "Jorge Rojo"
   },
   "repository": "git@github.com:marythe-ux/red-and-king-components.git",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -50,12 +50,15 @@
     "yarn": "1.22.17"
   },
   "scripts": {
-    "build-storybook": "build-storybook -s public",
-    "build": "rm -rf dist && tsc -p ./tsconfig-build.json",
-    "prettier": "prettier  --write 'src/**/*.{ts,tsx}'",
+    "build-storybook": "rm -rf ./docs/storybook && build-storybook -o ./docs/storybook",
+    "build": "rm -rf ./dist && tsc -p ./tsconfig-build.json",
     "lint": "eslint --max-warnings=0 'src/**/*.{ts,tsx}'",
-    "start": "start-storybook -p 6006 -s public",
+    "prettier": "prettier  --write 'src/**/*.{ts,tsx}'",
+    "start": "start-storybook -p 6006",
     "storybook": "yarn start",
-    "test": "react-scripts test --watchAll=false"
+    "test-cover": "rm -rf ./coverage && yarn test --coverage && mv ./coverage ./docs/coverage",
+    "test": "react-scripts test --watchAll=false",
+    "prepare": "husky install",
+    "postinstall": "yarn prepare"
   }
 }

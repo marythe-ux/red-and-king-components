@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from '@emotion/styled-base';
+import styled from '@emotion/styled';
 
 interface ButtonStyledProps {
   size?: 'small' | 'medium' | 'large';
@@ -15,14 +15,28 @@ const styledPropHandler = {
     switch (color) {
       case 'secondary':
         return `
-          color: #333;
-          background-color: transparent;
+          color: #000000;
+          background-color: #eaeaea;
           box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 1px 2px inset;
         `;
       default:
         return `
-          color: #fff;
+          color: #ffc4e3;
           background-color: #009179;
+        `;
+    }
+  },
+  hoverColor({ color }: ButtonStyledProps) {
+    switch (color) {
+      case 'secondary':
+        return `
+          color: #333333;
+          background-color: #ffffff;
+        `;
+      default:
+        return `
+          color: #ffffff;
+          background-color: #005161;
         `;
     }
   },
@@ -55,8 +69,12 @@ export const ButtonStyled = styled('button')<ButtonStyledProps>`
   cursor: pointer;
   display: inline-block;
   line-height: 1;
+  transition: color 0.5s ease, background-color 0.5s ease;
   ${styledPropHandler.color}
   ${styledPropHandler.size}
+  &:hover {
+    ${styledPropHandler.hoverColor}
+  }
 `;
 
 const Button = ({ label, size, color, onClick }: ButtonProps) => (

@@ -1,6 +1,6 @@
 // import React from 'react';
 import styled from '@emotion/styled';
-import designTokens from '../../../tokens/design-tokens-example.json';
+import designTokens from '../../../tokens/design-tokens.json';
 // import css from '@emotion/css';
 
 const ColorCard = styled('span')`

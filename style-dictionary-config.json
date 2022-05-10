@@ -3,10 +3,10 @@
   "platforms": {
     "json-flat": {
       "transformGroup": "js",
-      "buildPath": "build/json/",
+      "buildPath": "src/styles/",
       "files": [
         {
-          "destination": "styles.json",
+          "destination": "tokens-variables.json",
           "format": "json/flat"
         }
       ]

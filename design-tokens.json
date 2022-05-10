@@ -56,6 +56,26 @@
         "value": "#fe8900",
         "type": "color"
       }
+    },
+    "x-small": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "small": {
+      "value": "12",
+      "type": "spacing"
+    },
+    "middle": {
+      "value": "16",
+      "type": "spacing"
+    },
+    "large": {
+      "value": "24",
+      "type": "spacing"
+    },
+    "radius-small": {
+      "value": "6",
+      "type": "borderRadius"
     }
   }
 }

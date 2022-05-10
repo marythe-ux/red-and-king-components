@@ -3,7 +3,7 @@ name: Transform tokens send from figma
 on:
   push:
     branches:
-      - develop
+      - design-tokens
     paths:
       - 'tokens/design-tokens.json'
 jobs:
@@ -11,14 +11,13 @@ jobs:
     name: Transform Figma design tokens for specific platforms
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@develop
+      - uses: actions/checkout@master
       - name: Use Node.js 16.x
         uses: actions/setup-node@v1
         with:
           node-version: 16
-          registry-url: https://registry.npmjs.org/
       - name: Transform design tokens
-        run: 'yarn install --pure-lock i && yarn transform-tokens'
+        run: 'git checkout design-tokens && yarn install --pure-lock && node transformTokens.js'
       - name: Create PR
         uses: peter-evans/create-pull-request@v3
         with:

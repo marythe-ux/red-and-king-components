@@ -431,3 +431,44 @@ exports[`Storyshots Example/Page Logged Out 1`] = `
   </section>
 </article>
 `;
+
+exports[`Storyshots Theming/Colors Primary Theme 1`] = `
+Array [
+  <div
+    className="css-1sg2lsz"
+  >
+    <span
+      className="css-13r8mbg"
+      color="#ffffff"
+    />
+     
+    <span>
+      white
+    </span>
+  </div>,
+  <div
+    className="css-1sg2lsz"
+  >
+    <span
+      className="css-1dm0gxg"
+      color="#a800eb"
+    />
+     
+    <span>
+      primary
+    </span>
+  </div>,
+  <div
+    className="css-1sg2lsz"
+  >
+    <span
+      className="css-jaz3hv"
+      color="#fe8900"
+    />
+     
+    <span>
+      danger
+    </span>
+  </div>,
+]
+`;

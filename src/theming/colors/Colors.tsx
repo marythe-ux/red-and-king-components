@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import designTokens from '../../styles/tokens-variables.json';
+import { tier2 } from '../../styles/theme';
 
 const ColorCard = styled('span')`
   width: 40px;
@@ -15,33 +15,14 @@ const CardContainer = styled('div')`
   align-items: center;
 `;
 
-const printColor = (colorData: any): JSX.Element[] => {
-  return Object.entries(colorData).map(([name, value]) => (
-    <CardContainer>
-      <ColorCard color={value as string} /> <span>{name}</span>
-    </CardContainer>
-  ));
-};
-
-const Colors = () => {
-  const colors = {
-    White: designTokens.ColorWhite,
-    Dark: designTokens.ColorDark,
-    Secondary: designTokens.ColorSecondary,
-    Purple50: designTokens.ColorPurple50,
-    Purple100: designTokens.ColorPurple100,
-    Purple200: designTokens.ColorPurple200,
-    Purple300: designTokens.ColorPurple300,
-    Purple400: designTokens.ColorPurple400,
-    Purple500: designTokens.ColorPurple600,
-    Purple600: designTokens.ColorPurple600,
-    Purple700: designTokens.ColorPurple700,
-    Purple800: designTokens.ColorPurple800,
-    Purple900: designTokens.ColorPurple900,
-    SemanticDanger: designTokens.ColorSemanticDanger,
-  };
-
-  return <>{printColor(colors)}</>;
-};
+const Colors = () => (
+  <>
+    {Object.entries(tier2.color).map(([name, value]) => (
+      <CardContainer>
+        <ColorCard color={value} /> <span>{name}</span>
+      </CardContainer>
+    ))}
+  </>
+);
 
 export default Colors;

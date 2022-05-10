@@ -17,13 +17,16 @@ jobs:
         with:
           node-version: 16
       - name: Transform design tokens
-        run: 'git checkout design-tokens && yarn install --pure-lock && node transformTokens.js'
+        run: 'yarn install --pure-lock && node transformTokens.js'
       - name: Create PR
         uses: peter-evans/create-pull-request@v3
         with:
           commit-message: 'Tokens updated'
           title: 'Design tokens updated'
           body: 'Design tokens have been updated via Figma and need to be reviewed.'
+          delete-branch: true
+          branch: design-tokens
+          base: main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_NAME: 'main'

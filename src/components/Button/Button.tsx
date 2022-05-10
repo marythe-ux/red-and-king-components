@@ -1,8 +1,9 @@
 import styled from '@emotion/styled';
 import css from '@emotion/css';
+import { tier3 } from '../../styles/theme';
 
 interface ButtonStyledProps {
-  size?: 'small' | 'medium' | 'large';
+  size?: 'xSmall' | 'small' | 'default' | 'large';
   color?: 'primary' | 'secondary';
 }
 interface ButtonProps extends ButtonStyledProps {
@@ -13,49 +14,48 @@ interface ButtonProps extends ButtonStyledProps {
 const styledPropHandler = {
   color({ color }: ButtonStyledProps) {
     switch (color) {
-      case 'secondary':
-        return css`
-          color: #000000;
-          background-color: #eaeaea;
-          box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 1px 2px inset;
-        `;
       default:
         return css`
-          color: #ffc4e3;
-          background-color: #009179;
+          color: ${tier3.button.color.primary.default};
+          background-color: ${tier3.button.background.primary.default};
         `;
     }
   },
   hoverColor({ color }: ButtonStyledProps) {
     switch (color) {
-      case 'secondary':
-        return css`
-          color: #333333;
-          background-color: #ffffff;
-        `;
       default:
         return css`
-          color: #ffffff;
-          background-color: #005161;
+          color: ${tier3.button.color.primary.hover};
+          background-color: ${tier3.button.background.primary.hover};
         `;
     }
   },
   size({ size }: ButtonStyledProps) {
     switch (size) {
+      case 'xSmall':
+        return css`
+          font-size: ${tier3.button.fontSize.xSmall};
+          padding: ${tier3.button.padding.xSmall};
+          border-radius: ${tier3.button.borderRadius.xSmall};
+        `;
       case 'small':
         return css`
-          font-size: 12px;
-          padding: 10px 16px;
+          font-size: ${tier3.button.fontSize.small};
+          padding: ${tier3.button.padding.small};
+          border-radius: ${tier3.button.borderRadius.small};
         `;
       case 'large':
         return css`
-          font-size: 16px;
-          padding: 12px 24px;
+          font-size: ${tier3.button.fontSize.large};
+          padding: ${tier3.button.padding.large};
+          border-radius: ${tier3.button.borderRadius.large};
         `;
+      case 'default':
       default:
         return css`
-          font-size: 14px;
-          padding: 11px 20px;
+          font-size: ${tier3.button.fontSize.default};
+          padding: ${tier3.button.padding.default};
+          border-radius: ${tier3.button.borderRadius.default};
         `;
     }
   },

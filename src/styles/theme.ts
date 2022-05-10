@@ -16,15 +16,34 @@ export const tier2 = {
 export const tier3 = {
   button: {
     color: {
-      primary: tier2.color.white,
+      primary: {
+        default: tier2.color.white,
+        hover: tier2.color.white,
+      },
     },
     background: {
-      primary: tier2.color.primary,
+      primary: {
+        default: tier2.color.primary,
+        hover: tier2.color.danger,
+      },
+    },
+    fontSize: {
+      default: ` 14px`,
+      large: `${tier1.GlobalLarge}px`,
+      small: `${tier1.GlobalSmall}px`,
+      xSmall: `${tier1.GlobalXSmall}px`,
     },
     padding: {
-      default: '15px',
-      large: '20px',
-      small: '10px',
+      default: `${tier1.GlobalMiddle}px`,
+      large: `${tier1.GlobalLarge}px`,
+      small: `${tier1.GlobalSmall}px`,
+      xSmall: `${tier1.GlobalXSmall}px`,
+    },
+    borderRadius: {
+      default: `${tier1.GlobalRadiusSmall}px`,
+      large: `${tier1.GlobalRadiusSmall}px`,
+      small: `${tier1.GlobalRadiusSmall}px`,
+      xSmall: `${tier1.GlobalRadiusSmall}px`,
     },
   },
 };

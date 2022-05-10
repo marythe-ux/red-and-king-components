@@ -23,11 +23,12 @@ jobs:
       - name: Transform design tokens
         run: 'yarn install --pure-lock && yarn transform-tokens'
 
-      - name: Merge token variables
+      - name: Apply transform design tokens
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: design-tokens
-          commit_options: '-m"Transform design tokens" --no-verify --signoff'
+          commit_options: --no-verify --signoff'
+          commit_message: Apply transform design tokens
           push_options: '--no-verify --force'
           file_pattern: 'src/styles/token-variables.json'
           commit_user_name: 'Jorge Rojo'

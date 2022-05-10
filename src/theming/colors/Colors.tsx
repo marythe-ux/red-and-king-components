@@ -17,8 +17,8 @@ const CardContainer = styled('div')`
 
 const Colors = () => (
   <>
-    {Object.entries(tier2.color).map(([name, value]) => (
-      <CardContainer>
+    {Object.entries(tier2.color).map(([name, value], index) => (
+      <CardContainer key={index}>
         <ColorCard color={value} /> <span>{name}</span>
       </CardContainer>
     ))}

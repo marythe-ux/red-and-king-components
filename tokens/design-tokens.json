@@ -1,0 +1,81 @@
+{
+  "global": {
+    "White": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "Dark": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "purple": {
+      "50": {
+        "value": "#f5e6fc",
+        "type": "color",
+        "description": "Esta es una prueba de descripción"
+      },
+      "100": {
+        "value": "#e6bff9",
+        "type": "color"
+      },
+      "200": {
+        "value": "#d694f6",
+        "type": "color"
+      },
+      "300": {
+        "value": "#c566f3",
+        "type": "color"
+      },
+      "400": {
+        "value": "#b73ef0",
+        "type": "color"
+      },
+      "500": {
+        "value": "#a800eb",
+        "type": "color"
+      },
+      "600": {
+        "value": "#9607e5",
+        "type": "color"
+      },
+      "700": {
+        "value": "#7c0ade",
+        "type": "color"
+      },
+      "800": {
+        "value": "#630bd9",
+        "type": "color"
+      },
+      "900": {
+        "value": "#150dd2",
+        "type": "color"
+      }
+    },
+    "semantic": {
+      "danger": {
+        "value": "#fe8900",
+        "type": "color"
+      }
+    },
+    "x-small": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "small": {
+      "value": "12",
+      "type": "spacing"
+    },
+    "middle": {
+      "value": "16",
+      "type": "spacing"
+    },
+    "large": {
+      "value": "24",
+      "type": "spacing"
+    },
+    "radius-small": {
+      "value": "6",
+      "type": "borderRadius"
+    }
+  }
+}

@@ -11,5 +11,10 @@
   "GlobalPurple700": "#7c0ade",
   "GlobalPurple800": "#630bd9",
   "GlobalPurple900": "#150dd2",
-  "GlobalSemanticDanger": "#fe8900"
+  "GlobalSemanticDanger": "#fe8900",
+  "GlobalXSmall": "89999",
+  "GlobalSmall": "12",
+  "GlobalMiddle": "16",
+  "GlobalLarge": "24",
+  "GlobalRadiusSmall": "6"
 }

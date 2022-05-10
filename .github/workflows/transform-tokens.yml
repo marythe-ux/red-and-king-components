@@ -28,19 +28,9 @@ jobs:
         with:
           branch: design-tokens
           commit_options: '--amend --no-edit --no-verify --signoff'
-          push_options: '--force'
+          push_options: '--no-verify --force'
           skip_dirty_check: true
           file_pattern: 'src/styles/token-variables.json'
           commit_user_name: 'Jorge Rojo'
           commit_user_email: 'jorge.rojodiseno@gmail.com'
           commit_author: Author <actions@github.com>
-
-      # - name: Create PR
-      #   uses: peter-evans/create-pull-request@v3
-      #   with:
-      #     commit-message: 'Tokens updated'
-      #     title: 'Design tokens updated'
-      #     body: 'Design tokens have been updated via Figma and need to be reviewed.'
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     BRANCH_NAME: 'design-tokens'

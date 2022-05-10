@@ -72,6 +72,6 @@
     "storybook": "yarn start",
     "test-cover": "yarn test --coverage && mv  coverage docs/coverage",
     "test": "react-scripts test --watchAll=false",
-    "transform-tokens": "node ./transformTokens.js"
+    "transform-tokens": "node transformTokens.js"
   }
 }

@@ -1,0 +1,24 @@
+name: coverage and storybook
+on:
+  push:
+    branches:
+      - main
+jobs:
+  coverage-and-storybook:
+    concurrency: ci-${{ github.ref }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: yarn install --pure-lock
+      - run: yarn lint
+      - run: yarn test-cover
+      - run: yarn build-storybook
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.3.0
+        with:
+          branch: gh-pages
+          folder: docs

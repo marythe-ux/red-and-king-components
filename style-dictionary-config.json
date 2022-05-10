@@ -1,12 +1,12 @@
 {
-  "source": ["tokens/*.json"],
+  "source": ["design-tokens.json"],
   "platforms": {
     "json-flat": {
       "transformGroup": "js",
-      "buildPath": "styles/",
+      "buildPath": "src/styles/",
       "files": [
         {
-          "destination": "tokens-variables.json",
+          "destination": "token-variables.json",
           "format": "json/flat"
         }
       ]

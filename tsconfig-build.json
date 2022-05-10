@@ -4,8 +4,8 @@
     "declaration": true,
     "noEmit": false,
     "outDir": "./dist",
-    "rootDir": "./src/components"
+    "rootDir": "./src"
   },
-  "include": ["./src/components/*", "./src/components/**/*"],
+  "include": ["./src/components/*", "./src/components/**/*", "./src/styles/*"],
   "exclude": ["src/**/*.stories.*", "src/**/*.test.*"]
 }

@@ -25,14 +25,14 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>14/14</span>
+                <span class='fraction'>13/13</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">85.71% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>7/7</span>
+                <span class='fraction'>6/7</span>
             </div>
         
             
@@ -46,7 +46,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>14/14</span>
+                <span class='fraction'>13/13</span>
             </div>
         
             
@@ -161,17 +161,12 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">12x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">12x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -180,12 +175,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">12x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">12x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -193,8 +183,15 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -204,7 +201,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -237,9 +237,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import styled from '@emotion/styled';
 import css from '@emotion/css';
+import { tier3 } from '../../styles/theme';
 &nbsp;
 interface ButtonStyledProps {
-  size?: 'small' | 'medium' | 'large';
+  size?: 'xSmall' | 'small' | 'default' | 'large';
   color?: 'primary' | 'secondary';
 }
 interface ButtonProps extends ButtonStyledProps {
@@ -250,49 +251,48 @@ interface ButtonProps extends ButtonStyledProps {
 const styledPropHandler = {
   color({ color }: ButtonStyledProps) {
     switch (color) {
-      case 'secondary':
-        return css`
-          color: #000000;
-          background-color: #eaeaea;
-          box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 1px 2px inset;
-        `;
       default:
         return css`
-          color: #ffc4e3;
-          background-color: #009179;
+          color: ${tier3.button.color.primary.default};
+          background-color: ${tier3.button.background.primary.default};
         `;
     }
   },
   hoverColor({ color }: ButtonStyledProps) {
     switch (color) {
-      case 'secondary':
-        return css`
-          color: #333333;
-          background-color: #ffffff;
-        `;
       default:
         return css`
-          color: #ffffff;
-          background-color: #005161;
+          color: ${tier3.button.color.primary.hover};
+          background-color: ${tier3.button.background.primary.hover};
         `;
     }
   },
   size({ size }: ButtonStyledProps) {
     switch (size) {
+      case 'xSmall':
+        return css`
+          font-size: ${tier3.button.fontSize.xSmall};
+          padding: ${tier3.button.padding.xSmall};
+          border-radius: ${tier3.button.borderRadius.xSmall};
+        `;
       case 'small':
         return css`
-          font-size: 12px;
-          padding: 10px 16px;
+          font-size: ${tier3.button.fontSize.small};
+          padding: ${tier3.button.padding.small};
+          border-radius: ${tier3.button.borderRadius.small};
         `;
       case 'large':
         return css`
-          font-size: 16px;
-          padding: 12px 24px;
+          font-size: ${tier3.button.fontSize.large};
+          padding: ${tier3.button.padding.large};
+          border-radius: ${tier3.button.borderRadius.large};
         `;
+<span class="branch-3 cbranch-no" title="branch not covered" >      case 'default':</span>
       default:
         return css`
-          font-size: 14px;
-          padding: 11px 20px;
+          font-size: ${tier3.button.fontSize.default};
+          padding: ${tier3.button.padding.default};
+          border-radius: ${tier3.button.borderRadius.default};
         `;
     }
   },
@@ -328,7 +328,7 @@ export default Button;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Tue May 10 2022 23:51:13 GMT+0000 (Coordinated Universal Time)
+                at Wed May 11 2022 00:00:28 GMT+0000 (Coordinated Universal Time)
             </div>
         <script src="../../prettify.js"></script>
         <script>

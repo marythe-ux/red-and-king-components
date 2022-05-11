@@ -74,7 +74,7 @@
       "type": "spacing"
     },
     "radius-small": {
-      "value": "12",
+      "value": "6",
       "type": "borderRadius"
     }
   }

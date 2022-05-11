@@ -1,12 +1,15 @@
 import styled from '@emotion/styled';
 import { tier2 } from '../../styles/theme';
 
-const ColorCard = styled('span')`
+interface ColorCardProps {
+  colorName: 'white' | 'primary' | 'danger';
+}
+const ColorCard = styled('span')<ColorCardProps>`
   width: 40px;
   height: 40px;
   display: inline-block;
   margin: 2px;
-  background-color: ${({ color }) => color};
+  background-color: ${({ colorName }) => tier2.color[colorName]};
   border: solid 1px #ccc;
 `;
 
@@ -17,11 +20,17 @@ const CardContainer = styled('div')`
 
 const Colors = () => (
   <>
-    {Object.entries(tier2.color).map(([name, value], index) => (
-      <CardContainer key={index}>
-        <ColorCard color={value} /> <span>{name}</span>
-      </CardContainer>
-    ))}
+    <CardContainer>
+      <ColorCard colorName="white" /> <span>white</span>
+    </CardContainer>
+
+    <CardContainer>
+      <ColorCard colorName="primary" /> <span>primary</span>
+    </CardContainer>
+
+    <CardContainer>
+      <ColorCard colorName="danger" /> <span>danger</span>
+    </CardContainer>
   </>
 );
 

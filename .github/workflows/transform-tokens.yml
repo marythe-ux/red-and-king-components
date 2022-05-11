@@ -21,7 +21,10 @@ jobs:
           node-version: 16
 
       - name: Transform design tokens
-        run: 'yarn install --pure-lock && yarn transform-tokens'
+        run: |
+          yarn install --pure-lock
+          yarn transform-tokens
+          yarn test -u
 
       - name: Apply transform design tokens
         uses: stefanzweifel/git-auto-commit-action@v4

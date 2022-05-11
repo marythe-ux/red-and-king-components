@@ -33,7 +33,7 @@ jobs:
           commit_options: '--no-verify --signoff'
           commit_message: 'Apply transform design tokens'
           push_options: '--no-verify --force'
-          file_pattern: 'src/styles/token-variables.json'
+          file_pattern: 'src/styles/*.json src/**/*.snap'
           commit_user_name: 'Jorge Rojo'
           commit_user_email: 'jorge.rojodiseno@gmail.com'
           commit_author: Author <actions@github.com>

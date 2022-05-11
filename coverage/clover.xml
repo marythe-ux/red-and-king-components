@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1652274919897" clover="3.2.0">
-  <project timestamp="1652274919897" name="All files">
-    <metrics statements="54" coveredstatements="48" conditionals="9" coveredconditionals="8" methods="17" coveredmethods="13" elements="80" coveredelements="69" complexity="0" loc="54" ncloc="54" packages="5" files="11" classes="11"/>
+<coverage generated="1652301520840" clover="3.2.0">
+  <project timestamp="1652301520840" name="All files">
+    <metrics statements="53" coveredstatements="47" conditionals="9" coveredconditionals="8" methods="16" coveredmethods="12" elements="78" coveredelements="67" complexity="0" loc="53" ncloc="53" packages="5" files="11" classes="11"/>
     <package name="components">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="/home/runner/work/red-and-king-components/red-and-king-components/src/components/index.ts">
@@ -88,20 +88,19 @@
       </file>
     </package>
     <package name="theming.colors">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="Colors.stories.tsx" path="/home/runner/work/red-and-king-components/red-and-king-components/src/theming/colors/Colors.stories.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="10" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
       </file>
       <file name="Colors.tsx" path="/home/runner/work/red-and-king-components/red-and-king-components/src/theming/colors/Colors.tsx">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="21" count="3" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
       </file>
     </package>
   </project>

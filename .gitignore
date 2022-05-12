@@ -6,8 +6,8 @@
 .pnp.js
 
 # testing
-**/coverage*
-**/storybook*
+**/coverage/
+**/storybook*/
 
 # production
 /build

@@ -31,7 +31,7 @@
         "type": "color"
       },
       "500": {
-        "value": "#150dd2",
+        "value": "#A800EB",
         "type": "color"
       },
       "600": {
@@ -77,5 +77,6 @@
       "value": "6",
       "type": "borderRadius"
     }
-  }
+  },
+  "$themes": []
 }

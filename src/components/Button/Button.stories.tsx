@@ -12,7 +12,7 @@ export default {
       control: 'select',
     },
     size: {
-      options: ['large', 'default', 'small', 'xSmall'],
+      options: ['large', 'default', 'small'],
       control: 'select',
     },
     onClick: { action: 'clicked' },
@@ -24,26 +24,19 @@ const Template: ComponentStory<typeof Button> = args => <Button {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   color: 'primary',
-  label: 'Button 1',
+  label: 'Label',
 };
 
 export const Large = Template.bind({});
 Large.args = {
   color: 'primary',
   size: 'large',
-  label: 'Button 3',
+  label: 'Label',
 };
 
 export const Small = Template.bind({});
 Small.args = {
   color: 'primary',
   size: 'small',
-  label: 'Button 4',
-};
-
-export const XSmall = Template.bind({});
-XSmall.args = {
-  color: 'primary',
-  size: 'xSmall',
-  label: 'Button 5',
+  label: 'Label',
 };

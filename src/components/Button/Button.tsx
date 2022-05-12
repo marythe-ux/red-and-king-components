@@ -3,7 +3,7 @@ import css from '@emotion/css';
 import { tier3 } from '../../styles/theme';
 
 interface ButtonStyledProps {
-  size?: 'xSmall' | 'small' | 'default' | 'large';
+  size?: 'small' | 'default' | 'large';
   color?: 'primary' | 'secondary';
 }
 interface ButtonProps extends ButtonStyledProps {
@@ -32,29 +32,26 @@ const styledPropHandler = {
   },
   size({ size }: ButtonStyledProps) {
     switch (size) {
-      case 'xSmall':
-        return css`
-          font-size: ${tier3.button.fontSize.xSmall};
-          padding: ${tier3.button.padding.xSmall};
-          border-radius: ${tier3.button.borderRadius.xSmall};
-        `;
       case 'small':
         return css`
-          font-size: ${tier3.button.fontSize.small};
-          padding: ${tier3.button.padding.small};
+          font-size: 14px;
+          line-height: 16px;
+          padding: ${tier3.button.padding.xSmall} ${tier3.button.padding.small};
           border-radius: ${tier3.button.borderRadius.small};
         `;
       case 'large':
         return css`
-          font-size: ${tier3.button.fontSize.large};
-          padding: ${tier3.button.padding.large};
+          font-size: 24px;
+          line-height: 24px;
+          padding: ${tier3.button.padding.default} ${tier3.button.padding.large};
           border-radius: ${tier3.button.borderRadius.large};
         `;
       case 'default':
       default:
         return css`
-          font-size: ${tier3.button.fontSize.default};
-          padding: ${tier3.button.padding.default};
+          font-size: 14px;
+          line-height: 16px;
+          padding: ${tier3.button.padding.small} ${tier3.button.padding.default};
           border-radius: ${tier3.button.borderRadius.default};
         `;
     }
@@ -62,8 +59,7 @@ const styledPropHandler = {
 };
 
 export const ButtonStyled = styled('button')<ButtonStyledProps>`
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  font-family: 'Signika';
   border: 0;
   border-radius: 3em;
   cursor: pointer;

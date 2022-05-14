@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1652569620578" clover="3.2.0">
-  <project timestamp="1652569620578" name="All files">
+<coverage generated="1652570792401" clover="3.2.0">
+  <project timestamp="1652570792401" name="All files">
     <metrics statements="89" coveredstatements="81" conditionals="18" coveredconditionals="16" methods="32" coveredmethods="27" elements="139" coveredelements="124" complexity="0" loc="89" ncloc="89" packages="7" files="17" classes="17"/>
     <package name="components">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -53,8 +53,8 @@
       <file name="ColorCardsList.tsx" path="/home/runner/work/red-and-king-components/red-and-king-components/src/design-tokens/Colors/ColorCardsList.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="4" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
       </file>
       <file name="Colors.stories.tsx" path="/home/runner/work/red-and-king-components/red-and-king-components/src/design-tokens/Colors/Colors.stories.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>

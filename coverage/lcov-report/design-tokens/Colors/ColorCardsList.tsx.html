@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for theming/colors/Colors.tsx</title>
+    <title>Code coverage report for design-tokens/Colors/ColorCardsList.tsx</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">theming/colors</a> Colors.tsx</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">design-tokens/Colors</a> ColorCardsList.tsx</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>3/3</span>
             </div>
         
             
@@ -39,14 +39,14 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>3/3</span>
             </div>
         
             
@@ -95,12 +95,8 @@
 <a name='L30'></a><a href='#L30'>30</a>
 <a name='L31'></a><a href='#L31'>31</a>
 <a name='L32'></a><a href='#L32'>32</a>
-<a name='L33'></a><a href='#L33'>33</a>
-<a name='L34'></a><a href='#L34'>34</a>
-<a name='L35'></a><a href='#L35'>35</a>
-<a name='L36'></a><a href='#L36'>36</a>
-<a name='L37'></a><a href='#L37'>37</a>
-<a name='L38'></a><a href='#L38'>38</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L33'></a><a href='#L33'>33</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -111,17 +107,9 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -131,6 +119,8 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -138,42 +128,37 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import styled from '@emotion/styled';
-import { tier2 } from '../../styles/theme';
 &nbsp;
-interface ColorCardProps {
-  colorName: 'white' | 'primary' | 'danger';
+interface ColorCardsListProps {
+  colorName: string;
+  children: React.ReactNode;
 }
-const ColorCard = styled('span')&lt;ColorCardProps&gt;`
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  margin: 2px;
-  background-color: ${({ colorName }) =&gt; tier2.color[colorName]};
-  border: solid 1px #ccc;
-`;
 &nbsp;
-const CardContainer = styled('div')`
-  display: flex;
+const ColorCardsListStyled = styled('div')`
   align-items: center;
+  padding: 4px;
+  margin: 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+&nbsp;
+  &amp; .title {
+    width: 100%;
+  }
+&nbsp;
+  &amp; .container {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    display: flex;
+  }
 `;
 &nbsp;
-const Colors = () =&gt; (
-  &lt;&gt;
-    &lt;CardContainer&gt;
-      &lt;ColorCard colorName="white" /&gt; &lt;span&gt;white&lt;/span&gt;
-    &lt;/CardContainer&gt;
-&nbsp;
-    &lt;CardContainer&gt;
-      &lt;ColorCard colorName="primary" /&gt; &lt;span&gt;primary&lt;/span&gt;
-    &lt;/CardContainer&gt;
-&nbsp;
-    &lt;CardContainer&gt;
-      &lt;ColorCard colorName="danger" /&gt; &lt;span&gt;danger&lt;/span&gt;
-    &lt;/CardContainer&gt;
-  &lt;/&gt;
+const ColorCardsList = ({ colorName, children }: ColorCardsListProps) =&gt; (
+  &lt;ColorCardsListStyled&gt;
+    &lt;p className="title"&gt;{colorName}&lt;/p&gt;
+    &lt;div className="container"&gt;{children}&lt;/div&gt;
+  &lt;/ColorCardsListStyled&gt;
 );
 &nbsp;
-export default Colors;
+export default ColorCardsList;
 &nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
@@ -181,7 +166,7 @@ export default Colors;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Sat May 14 2022 12:15:09 GMT+0000 (Coordinated Universal Time)
+                at Sat May 14 2022 23:07:00 GMT+0000 (Coordinated Universal Time)
             </div>
         <script src="../../prettify.js"></script>
         <script>

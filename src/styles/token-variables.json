@@ -12,9 +12,15 @@
   "GlobalPurple800": "#630bd9",
   "GlobalPurple900": "#150dd2",
   "GlobalSemanticDanger": "#ff6000",
-  "GlobalXSmall": "8",
-  "GlobalSmall": "12",
-  "GlobalMiddle": "16",
-  "GlobalLarge": "24",
-  "GlobalRadiusSmall": "6"
+  "GlobalXxs": "2",
+  "GlobalXs": "4",
+  "GlobalS": "8",
+  "GlobalM": "12",
+  "GlobalBase": "16",
+  "GlobalL": "24",
+  "GlobalRadiusSmall": "6",
+  "GlobalXl": "32",
+  "GlobalXxl": "40",
+  "GlobalXxxl": "48",
+  "GlobalXxxxl": "64"
 }

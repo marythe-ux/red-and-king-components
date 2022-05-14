@@ -57,25 +57,53 @@
         "type": "color"
       }
     },
-    "x-small": {
+    "xxs": {
+      "value": "2",
+      "type": "spacing"
+    },
+    "xs": {
+      "value": "4",
+      "type": "spacing",
+      "description": "x-small"
+    },
+    "s": {
       "value": "8",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "small"
     },
-    "small": {
+    "m": {
       "value": "12",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "middle"
     },
-    "middle": {
+    "base": {
       "value": "16",
       "type": "spacing"
     },
-    "large": {
+    "l": {
       "value": "24",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "large"
     },
     "radius-small": {
       "value": "6",
       "type": "borderRadius"
+    },
+    "xl": {
+      "value": "32",
+      "type": "spacing"
+    },
+    "xxl": {
+      "value": "40",
+      "type": "spacing"
+    },
+    "xxxl": {
+      "value": "48",
+      "type": "spacing"
+    },
+    "xxxxl": {
+      "value": "64",
+      "type": "spacing"
     }
   },
   "$themes": []

@@ -41,6 +41,300 @@ Array [
 ]
 `;
 
+exports[`Storyshots Design tokens/Colors Colors 1`] = `
+Array [
+  <GlobalStyles />,
+  <h1>
+    Design tokens colors
+  </h1>,
+  <div
+    className="css-1nndm63"
+  >
+    <p
+      className="title"
+    >
+      White
+    </p>
+    <div
+      className="container"
+    >
+      <span
+        className="css-6x4xmh"
+        color="#ffffff"
+      >
+        White
+        <br />
+        #ffffff
+      </span>
+    </div>
+  </div>,
+  <div
+    className="css-1nndm63"
+  >
+    <p
+      className="title"
+    >
+      Dark
+    </p>
+    <div
+      className="container"
+    >
+      <span
+        className="css-1qn4u0p"
+        color="#000000"
+      >
+        Dark
+        <br />
+        #000000
+      </span>
+    </div>
+  </div>,
+  <div
+    className="css-1nndm63"
+  >
+    <p
+      className="title"
+    >
+      primary
+    </p>
+    <div
+      className="container"
+    >
+      <span
+        className="css-y6gnpf"
+        color="#f5e6fc"
+      >
+        50
+        <br />
+        #f5e6fc
+      </span>
+      <span
+        className="css-wgyev"
+        color="#e6bff9"
+      >
+        100
+        <br />
+        #e6bff9
+      </span>
+      <span
+        className="css-18t54z7"
+        color="#d694f6"
+      >
+        200
+        <br />
+        #d694f6
+      </span>
+      <span
+        className="css-6f4yfg"
+        color="#c566f3"
+      >
+        300
+        <br />
+        #c566f3
+      </span>
+      <span
+        className="css-1vmzfxk"
+        color="#b73ef0"
+      >
+        400
+        <br />
+        #b73ef0
+      </span>
+      <span
+        className="css-8df64y"
+        color="#A800EB"
+      >
+        500
+        <br />
+        #A800EB
+      </span>
+      <span
+        className="css-111wpt6"
+        color="#9607e5"
+      >
+        600
+        <br />
+        #9607e5
+      </span>
+      <span
+        className="css-1wesx5n"
+        color="#7c0ade"
+      >
+        700
+        <br />
+        #7c0ade
+      </span>
+      <span
+        className="css-13hzm5x"
+        color="#630bd9"
+      >
+        800
+        <br />
+        #630bd9
+      </span>
+      <span
+        className="css-1ur9nty"
+        color="#150dd2"
+      >
+        900
+        <br />
+        #150dd2
+      </span>
+    </div>
+  </div>,
+  <div
+    className="css-1nndm63"
+  >
+    <p
+      className="title"
+    >
+      semantic
+    </p>
+    <div
+      className="container"
+    >
+      <span
+        className="css-2mfgsz"
+        color="#ff6000"
+      >
+        danger
+        <br />
+        #ff6000
+      </span>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Design tokens/Spacing Spacing 1`] = `
+Array [
+  <GlobalStyles />,
+  <h1>
+    Design tokens spacing
+  </h1>,
+  <div
+    className="css-630khx"
+  >
+    <p
+      className="title"
+    >
+      xxs
+    </p>
+    <p
+      className="space"
+    />
+  </div>,
+  <div
+    className="css-plio13"
+  >
+    <p
+      className="title"
+    >
+      xs
+    </p>
+    <p
+      className="space"
+    />
+  </div>,
+  <div
+    className="css-bcf2m"
+  >
+    <p
+      className="title"
+    >
+      s
+    </p>
+    <p
+      className="space"
+    />
+  </div>,
+  <div
+    className="css-14it4ly"
+  >
+    <p
+      className="title"
+    >
+      m
+    </p>
+    <p
+      className="space"
+    />
+  </div>,
+  <div
+    className="css-fm0ppo"
+  >
+    <p
+      className="title"
+    >
+      base
+    </p>
+    <p
+      className="space"
+    />
+  </div>,
+  <div
+    className="css-zjesl3"
+  >
+    <p
+      className="title"
+    >
+      l
+    </p>
+    <p
+      className="space"
+    />
+  </div>,
+  <div
+    className="css-1mpunvi"
+  >
+    <p
+      className="title"
+    >
+      xl
+    </p>
+    <p
+      className="space"
+    />
+  </div>,
+  <div
+    className="css-1psdnd9"
+  >
+    <p
+      className="title"
+    >
+      xxl
+    </p>
+    <p
+      className="space"
+    />
+  </div>,
+  <div
+    className="css-cb5u1f"
+  >
+    <p
+      className="title"
+    >
+      xxxl
+    </p>
+    <p
+      className="space"
+    />
+  </div>,
+  <div
+    className="css-pm9xa5"
+  >
+    <p
+      className="title"
+    >
+      xxxxl
+    </p>
+    <p
+      className="space"
+    />
+  </div>,
+]
+`;
+
 exports[`Storyshots Example/Header Logged In 1`] = `
 Array [
   <GlobalStyles />,
@@ -442,44 +736,5 @@ Array [
       </div>
     </section>
   </article>,
-]
-`;
-
-exports[`Storyshots Theming/Colors Primary Theme 1`] = `
-Array [
-  <GlobalStyles />,
-  <div
-    className="css-1sg2lsz"
-  >
-    <span
-      className="css-13r8mbg"
-    />
-     
-    <span>
-      white
-    </span>
-  </div>,
-  <div
-    className="css-1sg2lsz"
-  >
-    <span
-      className="css-kufsgt"
-    />
-     
-    <span>
-      primary
-    </span>
-  </div>,
-  <div
-    className="css-1sg2lsz"
-  >
-    <span
-      className="css-qd9lzy"
-    />
-     
-    <span>
-      danger
-    </span>
-  </div>,
 ]
 `;

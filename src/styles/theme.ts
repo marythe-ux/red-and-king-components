@@ -28,22 +28,19 @@ export const tier3 = {
       },
     },
     fontSize: {
-      default: ` 14px`,
-      large: `${tier1.GlobalLarge}px`,
-      small: `${tier1.GlobalSmall}px`,
-      xSmall: `${tier1.GlobalXSmall}px`,
+      default: `14px`,
+      large: `24px`,
+      small: `14px`,
     },
     padding: {
-      default: `${tier1.GlobalMiddle}px`,
-      large: `${tier1.GlobalLarge}px`,
-      small: `${tier1.GlobalSmall}px`,
-      xSmall: `${tier1.GlobalXSmall}px`,
+      default: `${tier1.GlobalM}px ${tier1.GlobalBase}px`,
+      large: `${tier1.GlobalBase}px ${tier1.GlobalL}px`,
+      small: `${tier1.GlobalS}px`,
     },
     borderRadius: {
       default: `${tier1.GlobalRadiusSmall}px`,
       large: `${tier1.GlobalRadiusSmall}px`,
       small: `${tier1.GlobalRadiusSmall}px`,
-      xSmall: `${tier1.GlobalRadiusSmall}px`,
     },
   },
 };

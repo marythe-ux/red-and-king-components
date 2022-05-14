@@ -36,14 +36,14 @@ const styledPropHandler = {
         return css`
           font-size: 14px;
           line-height: 16px;
-          padding: ${tier3.button.padding.xSmall} ${tier3.button.padding.small};
+          padding: ${tier3.button.padding.small};
           border-radius: ${tier3.button.borderRadius.small};
         `;
       case 'large':
         return css`
           font-size: 24px;
           line-height: 24px;
-          padding: ${tier3.button.padding.default} ${tier3.button.padding.large};
+          padding: ${tier3.button.padding.large};
           border-radius: ${tier3.button.borderRadius.large};
         `;
       case 'default':
@@ -51,7 +51,7 @@ const styledPropHandler = {
         return css`
           font-size: 14px;
           line-height: 16px;
-          padding: ${tier3.button.padding.small} ${tier3.button.padding.default};
+          padding: ${tier3.button.padding.default};
           border-radius: ${tier3.button.borderRadius.default};
         `;
     }

@@ -4,7 +4,7 @@ exports[`Storyshots Components/Button Default 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-1b62z8c"
+    className="css-yi23fg"
     color="primary"
     type="button"
   >
@@ -17,7 +17,7 @@ exports[`Storyshots Components/Button Large 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-l9h5ya"
+    className="css-1ecuqcw"
     color="primary"
     size="large"
     type="button"
@@ -31,7 +31,7 @@ exports[`Storyshots Components/Button Small 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-1b62z8c"
+    className="css-1qxsimw"
     color="primary"
     size="small"
     type="button"
@@ -88,7 +88,7 @@ Array [
           !
         </span>
         <button
-          className="css-1b62z8c"
+          className="css-1qxsimw"
           color="secondary"
           size="small"
           type="button"
@@ -139,7 +139,7 @@ Array [
       </div>
       <div>
         <button
-          className="css-1b62z8c"
+          className="css-1qxsimw"
           color="secondary"
           size="small"
           type="button"
@@ -147,7 +147,7 @@ Array [
           Log in
         </button>
         <button
-          className="css-1b62z8c"
+          className="css-1qxsimw"
           size="small"
           type="button"
         >
@@ -198,7 +198,7 @@ Array [
         </div>
         <div>
           <button
-            className="css-1b62z8c"
+            className="css-1qxsimw"
             color="secondary"
             onClick={[Function]}
             size="small"
@@ -207,7 +207,7 @@ Array [
             Log in
           </button>
           <button
-            className="css-1b62z8c"
+            className="css-1qxsimw"
             onClick={[Function]}
             size="small"
             type="button"
@@ -341,7 +341,7 @@ Array [
         </div>
         <div>
           <button
-            className="css-1b62z8c"
+            className="css-1qxsimw"
             color="secondary"
             onClick={[Function]}
             size="small"
@@ -350,7 +350,7 @@ Array [
             Log in
           </button>
           <button
-            className="css-1b62z8c"
+            className="css-1qxsimw"
             onClick={[Function]}
             size="small"
             type="button"

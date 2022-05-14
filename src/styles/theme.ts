@@ -7,7 +7,7 @@ export const tier1 = tokenVariables;
 export const tier2 = {
   color: {
     white: tier1.GlobalWhite,
-    primary: tier1.GlobalPurple500,
+    primary: tier1.GlobalPrimary500,
     danger: tier1.GlobalSemanticDanger,
   },
 };

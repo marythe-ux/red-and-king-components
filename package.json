@@ -5,7 +5,7 @@
     "name": "Jorge Rojo"
   },
   "repository": "git@github.com:marythe-ux/red-and-king-components.git",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "private": false,
   "license": "MIT",
   "peerDependencies": {

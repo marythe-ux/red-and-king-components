@@ -8,7 +8,7 @@
       "value": "#000000",
       "type": "color"
     },
-    "purple": {
+    "primary": {
       "50": {
         "value": "#f5e6fc",
         "type": "color",
@@ -105,6 +105,5 @@
       "value": "64",
       "type": "spacing"
     }
-  },
-  "$themes": []
+  }
 }

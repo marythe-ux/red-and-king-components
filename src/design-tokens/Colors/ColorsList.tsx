@@ -13,11 +13,11 @@ const ColorsList = () => (
   <>
     <h1>Design tokens colors</h1>
 
-    {Object.entries(colorData).map(([colorName, value]) => {
+    {Object.entries(colorData).map(([colorName, value], index) => {
       if (value.type === 'color') {
         const colorDataItem = value as DesignTokensItem;
         return (
-          <ColorCardsList colorName={colorName}>
+          <ColorCardsList colorName={colorName} key={index}>
             <ColorCard color={colorDataItem.value}>
               {colorName}
               <br />
@@ -30,14 +30,16 @@ const ColorsList = () => (
       if (value.type == null) {
         const colorDataItems = value as DesignTokensItems;
         return (
-          <ColorCardsList colorName={colorName}>
-            {Object.entries(colorDataItems).map(([colorKey, colorDataItem]) => (
-              <ColorCard color={colorDataItem.value}>
-                {colorKey}
-                <br />
-                {colorDataItem.value}
-              </ColorCard>
-            ))}
+          <ColorCardsList colorName={colorName} key={index}>
+            {Object.entries(colorDataItems).map(
+              ([colorKey, colorDataItem], index) => (
+                <ColorCard color={colorDataItem.value} key={index}>
+                  {colorKey}
+                  <br />
+                  {colorDataItem.value}
+                </ColorCard>
+              )
+            )}
           </ColorCardsList>
         );
       }

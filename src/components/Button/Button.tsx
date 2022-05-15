@@ -14,6 +14,13 @@ interface ButtonProps extends ButtonStyledProps {
 const styledPropHandler = {
   color({ color }: ButtonStyledProps) {
     switch (color) {
+      case 'secondary':
+        return css`
+          box-shadow: ${tier3.button.boxShadow.secondary.default};
+          color: ${tier3.button.color.secondary.default};
+          background-color: ${tier3.button.background.secondary.default};
+        `;
+      case 'primary':
       default:
         return css`
           color: ${tier3.button.color.primary.default};
@@ -23,6 +30,12 @@ const styledPropHandler = {
   },
   hoverColor({ color }: ButtonStyledProps) {
     switch (color) {
+      case 'secondary':
+        return css`
+          color: ${tier3.button.color.secondary.hover};
+          background-color: ${tier3.button.background.secondary.hover};
+        `;
+      case 'primary':
       default:
         return css`
           color: ${tier3.button.color.primary.hover};

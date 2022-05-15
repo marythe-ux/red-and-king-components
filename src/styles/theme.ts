@@ -37,7 +37,7 @@ export const tier3 = {
     },
     boxShadow: {
       secondary: {
-        default: `inset 0px 0px 0px 1px  ${tier1.GlobalSecondaryDark}`,
+        default: `inset 0px 0px 0px ${tier1.GlobalBorderButtonSecondary}px ${tier1.GlobalSecondaryDark}`,
       },
     },
     fontSize: {

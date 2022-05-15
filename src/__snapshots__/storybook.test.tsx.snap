@@ -45,7 +45,7 @@ exports[`Storyshots Components/Button Secondary 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-1kqdb1g"
+    className="css-173wzs4"
     color="secondary"
     type="button"
   >
@@ -58,7 +58,7 @@ exports[`Storyshots Components/Button Secondary Large 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-y8d9rv"
+    className="css-w0xuha"
     color="secondary"
     size="large"
     type="button"
@@ -72,7 +72,7 @@ exports[`Storyshots Components/Button Secondary Small 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-17nmgrj"
+    className="css-1qnafce"
     color="secondary"
     size="small"
     type="button"
@@ -468,7 +468,7 @@ Array [
           !
         </span>
         <button
-          className="css-17nmgrj"
+          className="css-1qnafce"
           color="secondary"
           size="small"
           type="button"
@@ -519,7 +519,7 @@ Array [
       </div>
       <div>
         <button
-          className="css-17nmgrj"
+          className="css-1qnafce"
           color="secondary"
           size="small"
           type="button"
@@ -578,7 +578,7 @@ Array [
         </div>
         <div>
           <button
-            className="css-17nmgrj"
+            className="css-1qnafce"
             color="secondary"
             onClick={[Function]}
             size="small"
@@ -721,7 +721,7 @@ Array [
         </div>
         <div>
           <button
-            className="css-17nmgrj"
+            className="css-1qnafce"
             color="secondary"
             onClick={[Function]}
             size="small"

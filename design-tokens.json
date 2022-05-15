@@ -59,6 +59,10 @@
       "success": {
         "value": "#39d090",
         "type": "color"
+      },
+      "error": {
+        "value": "#eb3446",
+        "type": "color"
       }
     },
     "xxs": {

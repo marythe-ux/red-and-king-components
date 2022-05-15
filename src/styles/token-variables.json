@@ -27,5 +27,5 @@
   "GlobalXxxxl": "64",
   "GlobalSecondaryLight": "#ffffff",
   "GlobalSecondaryDark": "#000000",
-  "GlobalSecondaryButton": "1"
+  "GlobalBorderButtonSecondary": "1"
 }

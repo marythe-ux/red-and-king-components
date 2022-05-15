@@ -4,7 +4,7 @@ exports[`Storyshots Components/Button Default 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-yi23fg"
+    className="css-wvmwfc"
     color="primary"
     type="button"
   >
@@ -17,7 +17,7 @@ exports[`Storyshots Components/Button Large 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-1ecuqcw"
+    className="css-lwfr2c"
     color="primary"
     size="large"
     type="button"
@@ -31,7 +31,7 @@ exports[`Storyshots Components/Button Small 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-1qxsimw"
+    className="css-848axe"
     color="primary"
     size="small"
     type="button"
@@ -141,12 +141,12 @@ Array [
         #b73ef0
       </span>
       <span
-        className="css-8df64y"
-        color="#A800EB"
+        className="css-vcepi0"
+        color="#a800eb"
       >
         500
         <br />
-        #A800EB
+        #a800eb
       </span>
       <span
         className="css-111wpt6"
@@ -216,6 +216,35 @@ Array [
         error
         <br />
         #eb3446
+      </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      secondary
+    </p>
+    <div
+      className="container"
+    >
+      <span
+        className="css-6x4xmh"
+        color="#ffffff"
+      >
+        light
+        <br />
+        #ffffff
+      </span>
+      <span
+        className="css-1qn4u0p"
+        color="#000000"
+      >
+        dark
+        <br />
+        #000000
       </span>
     </div>
   </div>,
@@ -398,7 +427,7 @@ Array [
           !
         </span>
         <button
-          className="css-1qxsimw"
+          className="css-848axe"
           color="secondary"
           size="small"
           type="button"
@@ -449,7 +478,7 @@ Array [
       </div>
       <div>
         <button
-          className="css-1qxsimw"
+          className="css-848axe"
           color="secondary"
           size="small"
           type="button"
@@ -457,7 +486,7 @@ Array [
           Log in
         </button>
         <button
-          className="css-1qxsimw"
+          className="css-848axe"
           size="small"
           type="button"
         >
@@ -508,7 +537,7 @@ Array [
         </div>
         <div>
           <button
-            className="css-1qxsimw"
+            className="css-848axe"
             color="secondary"
             onClick={[Function]}
             size="small"
@@ -517,7 +546,7 @@ Array [
             Log in
           </button>
           <button
-            className="css-1qxsimw"
+            className="css-848axe"
             onClick={[Function]}
             size="small"
             type="button"
@@ -651,7 +680,7 @@ Array [
         </div>
         <div>
           <button
-            className="css-1qxsimw"
+            className="css-848axe"
             color="secondary"
             onClick={[Function]}
             size="small"
@@ -660,7 +689,7 @@ Array [
             Log in
           </button>
           <button
-            className="css-1qxsimw"
+            className="css-848axe"
             onClick={[Function]}
             size="small"
             type="button"

@@ -209,6 +209,14 @@ Array [
         <br />
         #39d090
       </span>
+      <span
+        className="css-1sx3c64"
+        color="#eb3446"
+      >
+        error
+        <br />
+        #eb3446
+      </span>
     </div>
   </div>,
 ]

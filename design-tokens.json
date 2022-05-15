@@ -122,6 +122,11 @@
         "value": "#000000",
         "type": "color"
       }
+    },
+    "secondary-button": {
+      "value": "1",
+      "type": "borderWidth",
+      "description": "border button secondary"
     }
   },
   "$themes": []

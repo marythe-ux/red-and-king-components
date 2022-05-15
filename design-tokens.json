@@ -31,7 +31,7 @@
         "type": "color"
       },
       "500": {
-        "value": "#A800EB",
+        "value": "#a800eb",
         "type": "color"
       },
       "600": {
@@ -112,6 +112,16 @@
     "xxxxl": {
       "value": "64",
       "type": "spacing"
+    },
+    "secondary": {
+      "light": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#000000",
+        "type": "color"
+      }
     }
   },
   "$themes": []

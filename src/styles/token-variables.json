@@ -6,7 +6,7 @@
   "GlobalPrimary200": "#d694f6",
   "GlobalPrimary300": "#c566f3",
   "GlobalPrimary400": "#b73ef0",
-  "GlobalPrimary500": "#A800EB",
+  "GlobalPrimary500": "#a800eb",
   "GlobalPrimary600": "#9607e5",
   "GlobalPrimary700": "#7c0ade",
   "GlobalPrimary800": "#630bd9",
@@ -24,5 +24,7 @@
   "GlobalXl": "32",
   "GlobalXxl": "40",
   "GlobalXxxl": "48",
-  "GlobalXxxxl": "64"
+  "GlobalXxxxl": "64",
+  "GlobalSecondaryLight": "#ffffff",
+  "GlobalSecondaryDark": "#000000"
 }

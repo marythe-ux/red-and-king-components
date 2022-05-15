@@ -20,11 +20,24 @@ export const tier3 = {
         default: tier2.color.white,
         hover: tier2.color.white,
       },
+      secondary: {
+        default: tier1.GlobalSecondaryDark,
+        hover: tier1.GlobalSecondaryLight,
+      },
     },
     background: {
       primary: {
         default: tier2.color.primary,
-        hover: tier2.color.danger,
+        hover: tier1.GlobalPrimary700,
+      },
+      secondary: {
+        default: tier1.GlobalSecondaryLight,
+        hover: tier1.GlobalSecondaryDark,
+      },
+    },
+    boxShadow: {
+      secondary: {
+        default: `inset 0px 0px 0px 1px  ${tier1.GlobalSecondaryDark}`,
       },
     },
     fontSize: {

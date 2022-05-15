@@ -40,10 +40,16 @@ const SpacesList = () => (
   <>
     <h1>Design tokens spacing</h1>
 
-    {Object.entries(colorData).map(([spacingName, value]) => {
+    {Object.entries(colorData).map(([spacingName, value], index) => {
       if (value.type === 'spacing') {
         const spacingDataItem = value as DesignTokensItem;
-        return <SpaceItem name={spacingName} value={spacingDataItem.value} />;
+        return (
+          <SpaceItem
+            key={index}
+            name={spacingName}
+            value={spacingDataItem.value}
+          />
+        );
       }
       return null;
     })}

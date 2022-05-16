@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1652650551450" clover="3.2.0">
-  <project timestamp="1652650551450" name="All files">
-    <metrics statements="97" coveredstatements="89" conditionals="22" coveredconditionals="20" methods="32" coveredmethods="27" elements="151" coveredelements="136" complexity="0" loc="97" ncloc="97" packages="7" files="17" classes="17"/>
+<coverage generated="1652742472085" clover="3.2.0">
+  <project timestamp="1652742472085" name="All files">
+    <metrics statements="77" coveredstatements="75" conditionals="20" coveredconditionals="18" methods="24" coveredmethods="23" elements="121" coveredelements="116" complexity="0" loc="77" ncloc="77" packages="6" files="13" classes="13"/>
     <package name="components">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="/home/runner/work/red-and-king-components/red-and-king-components/src/components/index.ts">
@@ -29,19 +29,19 @@
       <file name="Button.tsx" path="/home/runner/work/red-and-king-components/red-and-king-components/src/components/Button/Button.tsx">
         <metrics statements="14" coveredstatements="14" conditionals="10" coveredconditionals="9" methods="4" coveredmethods="4"/>
         <line num="14" count="2" type="stmt"/>
-        <line num="16" count="14" type="cond" truecount="3" falsecount="0"/>
-        <line num="18" count="7" type="stmt"/>
-        <line num="25" count="7" type="stmt"/>
-        <line num="32" count="14" type="cond" truecount="3" falsecount="0"/>
-        <line num="34" count="7" type="stmt"/>
-        <line num="40" count="7" type="stmt"/>
-        <line num="47" count="14" type="cond" truecount="3" falsecount="1"/>
-        <line num="49" count="9" type="stmt"/>
+        <line num="16" count="7" type="cond" truecount="3" falsecount="0"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="32" count="7" type="cond" truecount="3" falsecount="0"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="47" count="7" type="cond" truecount="3" falsecount="1"/>
+        <line num="49" count="2" type="stmt"/>
         <line num="56" count="2" type="stmt"/>
         <line num="64" count="3" type="stmt"/>
         <line num="74" count="2" type="stmt"/>
         <line num="89" count="2" type="stmt"/>
-        <line num="90" count="14" type="stmt"/>
+        <line num="90" count="7" type="stmt"/>
       </file>
     </package>
     <package name="design-tokens">
@@ -120,41 +120,6 @@
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="9" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="stories">
-      <metrics statements="20" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="4"/>
-      <file name="Header.stories.tsx" path="/home/runner/work/red-and-king-components/red-and-king-components/src/stories/Header.stories.tsx">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-      </file>
-      <file name="Header.tsx" path="/home/runner/work/red-and-king-components/red-and-king-components/src/stories/Header.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="23" count="4" type="stmt"/>
-      </file>
-      <file name="Page.stories.tsx" path="/home/runner/work/red-and-king-components/red-and-king-components/src/stories/Page.stories.tsx">
-        <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-      </file>
-      <file name="Page.tsx" path="/home/runner/work/red-and-king-components/red-and-king-components/src/stories/Page.tsx">
-        <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
       </file>
     </package>
     <package name="styles">

@@ -493,6 +493,10 @@
       "value": "#dc0000",
       "type": "color",
       "description": "This is the test choice color"
+    },
+    "TestColorWithOpacity": {
+      "value": "rgba({TestColor}, 0.2)",
+      "type": "color"
     }
   },
   "$themes": [],

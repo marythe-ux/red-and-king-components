@@ -483,10 +483,55 @@
       }
     }
   },
+  "raking-core": {
+    "color": {
+      "verde": {
+        "value": "#00f705",
+        "type": "color"
+      },
+      "naranja": {
+        "value": "#f48c00",
+        "type": "color"
+      }
+    }
+  },
+  "raking-semantic": {
+    "color": {
+      "primary": {
+        "value": "{color.verde}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{color.naranja}",
+        "type": "color"
+      }
+    }
+  },
+  "raking-components": {
+    "color": {
+      "background": {
+        "button": {
+          "primary": {
+            "default": {
+              "value": "{color.primary}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.secondary}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "global",
+      "raking-core",
+      "raking-semantic",
+      "raking-components"
     ]
   }
 }

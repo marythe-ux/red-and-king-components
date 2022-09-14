@@ -4,6 +4,11 @@
       "value": "#ffffff",
       "type": "color"
     },
+    "color-White": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "This is the white color"
+    },
     "Dark": {
       "value": "#000000",
       "type": "color"
@@ -483,10 +488,18 @@
       }
     }
   },
+  "Choices": {
+    "TestColor": {
+      "value": "#dc0000",
+      "type": "color",
+      "description": "This is the test choice color"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "global",
+      "Choices"
     ]
   }
 }

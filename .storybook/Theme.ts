@@ -4,6 +4,6 @@ import logo from './public/topdone.svg';
 export default create({
   base: 'light',
   brandTitle: 'Red&King components',
-  brandUrl: '/?path=/story/welcome-to-topdone--page',
+  brandUrl: 'https://marythe-ux.github.io/red-and-king-components/storybook',
   brandImage: logo,
 });

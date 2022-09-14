@@ -27,7 +27,7 @@ const ColorsList = () => (
         );
       }
 
-      if (value.type == null) {
+      if (value.type == null || Object.values(value)[0].type === 'color') {
         const colorDataItems = value as DesignTokensItems;
         return (
           <ColorCardsList colorName={colorName} key={index}>

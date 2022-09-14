@@ -1,5 +1,5 @@
 export interface DesignTokensItem {
-  value: string;
+  value: any;
   type: string;
   description?: string;
 }

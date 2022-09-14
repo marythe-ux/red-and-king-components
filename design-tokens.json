@@ -4,11 +4,6 @@
       "value": "#ffffff",
       "type": "color"
     },
-    "color-White": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": "This is the white color"
-    },
     "Dark": {
       "value": "#000000",
       "type": "color"
@@ -489,21 +484,68 @@
     }
   },
   "Choices": {
-    "TestColor": {
-      "value": "#dc0000",
-      "type": "color",
-      "description": "This is the test choice color"
-    },
-    "TestColorWithOpacity": {
-      "value": "rgba({TestColor}, 0.2)",
-      "type": "color"
+    "raking": {
+      "color": {
+        "red1": {
+          "value": "#dc0000",
+          "type": "color",
+          "description": "This is the test choice color"
+        },
+        "red1_op_02": {
+          "value": "rgba({raking.color.red1}, 0.2)",
+          "type": "color"
+        },
+        "pink1": {
+          "value": "rgba(255,60,190,0.93)",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "AbstractDecisions": {
+    "raking": {
+      "color": {
+        "primary": {
+          "value": "{raking.color.red1}",
+          "type": "color",
+          "description": "This is the primary color"
+        },
+        "secondary": {
+          "value": "{raking.color.pink1}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "ConcreteDecisions": {
+    "raking": {
+      "color": {
+        "background": {
+          "button": {
+            "default": {
+              "value": "{raking.color.primary}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{raking.color.red1_op_02}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{raking.color.secondary}",
+              "type": "color"
+            }
+          }
+        }
+      }
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "global",
-      "Choices"
+      "Choices",
+      "AbstractDecisions",
+      "ConcreteDecisions"
     ]
   }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1663156523440" clover="3.2.0">
-  <project timestamp="1663156523440" name="All files">
-    <metrics statements="77" coveredstatements="75" conditionals="20" coveredconditionals="18" methods="24" coveredmethods="23" elements="121" coveredelements="116" complexity="0" loc="77" ncloc="77" packages="6" files="13" classes="13"/>
+<coverage generated="1663206825301" clover="3.2.0">
+  <project timestamp="1663206825301" name="All files">
+    <metrics statements="77" coveredstatements="75" conditionals="22" coveredconditionals="21" methods="24" coveredmethods="23" elements="123" coveredelements="119" complexity="0" loc="77" ncloc="77" packages="6" files="13" classes="13"/>
     <package name="components">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="/home/runner/work/red-and-king-components/red-and-king-components/src/components/index.ts">
@@ -51,18 +51,18 @@
       </file>
     </package>
     <package name="design-tokens.Colors">
-      <metrics statements="32" coveredstatements="32" conditionals="8" coveredconditionals="7" methods="12" coveredmethods="12"/>
+      <metrics statements="32" coveredstatements="32" conditionals="10" coveredconditionals="10" methods="12" coveredmethods="12"/>
       <file name="ColorCard.tsx" path="/home/runner/work/red-and-king-components/red-and-king-components/src/design-tokens/Colors/ColorCard.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="12" count="17" type="stmt"/>
-        <line num="13" count="17" type="stmt"/>
+        <line num="12" count="56" type="stmt"/>
+        <line num="13" count="56" type="stmt"/>
       </file>
       <file name="ColorCardsList.tsx" path="/home/runner/work/red-and-king-components/red-and-king-components/src/design-tokens/Colors/ColorCardsList.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="8" count="1" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
-        <line num="27" count="5" type="stmt"/>
+        <line num="27" count="13" type="stmt"/>
       </file>
       <file name="Colors.stories.tsx" path="/home/runner/work/red-and-king-components/red-and-king-components/src/design-tokens/Colors/Colors.stories.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -70,34 +70,34 @@
         <line num="12" count="1" type="stmt"/>
       </file>
       <file name="ColorsList.tsx" path="/home/runner/work/red-and-king-components/red-and-king-components/src/design-tokens/Colors/ColorsList.tsx">
-        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
         <line num="10" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
-        <line num="17" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="39" type="cond" truecount="2" falsecount="0"/>
         <line num="18" count="2" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
-        <line num="30" count="15" type="cond" truecount="2" falsecount="0"/>
-        <line num="31" count="3" type="stmt"/>
-        <line num="32" count="3" type="stmt"/>
-        <line num="36" count="15" type="stmt"/>
-        <line num="47" count="12" type="stmt"/>
+        <line num="30" count="37" type="cond" truecount="4" falsecount="0"/>
+        <line num="31" count="11" type="stmt"/>
+        <line num="32" count="11" type="stmt"/>
+        <line num="36" count="54" type="stmt"/>
+        <line num="47" count="26" type="stmt"/>
       </file>
       <file name="getCorrectTextColor.ts" path="/home/runner/work/red-and-king-components/red-and-king-components/src/design-tokens/Colors/getCorrectTextColor.ts">
-        <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="3" methods="5" coveredmethods="5"/>
-        <line num="1" count="17" type="stmt"/>
-        <line num="3" count="17" type="stmt"/>
-        <line num="5" count="17" type="stmt"/>
-        <line num="7" count="51" type="cond" truecount="1" falsecount="1"/>
+        <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+        <line num="1" count="56" type="stmt"/>
+        <line num="3" count="56" type="stmt"/>
+        <line num="5" count="56" type="stmt"/>
+        <line num="7" count="168" type="cond" truecount="2" falsecount="0"/>
         <line num="9" count="1" type="stmt"/>
-        <line num="10" count="17" type="stmt"/>
-        <line num="11" count="17" type="stmt"/>
-        <line num="12" count="17" type="stmt"/>
-        <line num="13" count="17" type="stmt"/>
-        <line num="14" count="17" type="stmt"/>
-        <line num="15" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="56" type="stmt"/>
+        <line num="11" count="56" type="stmt"/>
+        <line num="12" count="56" type="stmt"/>
+        <line num="13" count="56" type="stmt"/>
+        <line num="14" count="56" type="stmt"/>
+        <line num="15" count="56" type="cond" truecount="2" falsecount="0"/>
         <line num="16" count="8" type="stmt"/>
-        <line num="18" count="9" type="stmt"/>
+        <line num="18" count="48" type="stmt"/>
       </file>
     </package>
     <package name="design-tokens.Spacing">
@@ -111,10 +111,10 @@
         <line num="32" count="10" type="stmt"/>
         <line num="39" count="1" type="stmt"/>
         <line num="40" count="1" type="stmt"/>
-        <line num="44" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="39" type="cond" truecount="2" falsecount="0"/>
         <line num="45" count="10" type="stmt"/>
         <line num="46" count="10" type="stmt"/>
-        <line num="54" count="7" type="stmt"/>
+        <line num="54" count="29" type="stmt"/>
       </file>
       <file name="Spacing.stories.tsx" path="/home/runner/work/red-and-king-components/red-and-king-components/src/design-tokens/Spacing/Spacing.stories.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>

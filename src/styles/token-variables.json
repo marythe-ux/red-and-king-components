@@ -81,10 +81,12 @@
   "GlobalTextCaseNone": "none",
   "GlobalTextCaseUppercase": "uppercase",
   "GlobalTextDecorationNone": "none",
-  "RakingCoreColorVerde": "#08826b",
+ 
+  "RakingCoreColorVerde": "#00f705",
   "RakingCoreColorNaranja": "#f48c00",
-  "RakingSemanticColorPrimary": "#08826b",
+  "RakingSemanticColorPrimary": "#00f705",
   "RakingSemanticColorSecondary": "#f48c00",
-  "RakingComponentsColorBackgroundButtonPrimaryDefault": "#08826b",
+  "RakingComponentsColorBackgroundButtonPrimaryDefault": "#00f705",
+ 
   "RakingComponentsColorBackgroundButtonPrimaryHover": "#f48c00"
 }

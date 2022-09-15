@@ -485,8 +485,8 @@
   },
   "raking-core": {
     "color": {
-      "verde": {
-        "value": "#00f705",
+      "verde": { 
+        "value": "#00f705",  
         "type": "color"
       },
       "naranja": {
@@ -533,5 +533,5 @@
       "raking-semantic",
       "raking-components"
     ]
-  }
-}
+  } 
+} 

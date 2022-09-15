@@ -289,6 +289,422 @@ Array [
       </span>
     </div>
   </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      fontFamilies
+    </p>
+    <div
+      className="container"
+    >
+      <span
+        className="css-1cahbea"
+        color="Signika"
+      >
+        signika
+        <br />
+        Signika
+      </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      lineHeights
+    </p>
+    <div
+      className="container"
+    >
+      <span
+        className="css-1wlz7pd"
+        color="110"
+      >
+        0
+        <br />
+        110
+      </span>
+      <span
+        className="css-qu7gc7"
+        color="70"
+      >
+        1
+        <br />
+        70
+      </span>
+      <span
+        className="css-ba1amw"
+        color="22"
+      >
+        2
+        <br />
+        22
+      </span>
+      <span
+        className="css-1uxkuyb"
+        color="19"
+      >
+        3
+        <br />
+        19
+      </span>
+      <span
+        className="css-1cdgget"
+        color="16"
+      >
+        4
+        <br />
+        16
+      </span>
+      <span
+        className="css-14n5w4l"
+        color="17"
+      >
+        5
+        <br />
+        17
+      </span>
+      <span
+        className="css-1u6d6u2"
+        color="15"
+      >
+        6
+        <br />
+        15
+      </span>
+      <span
+        className="css-anxxxm"
+        color="26"
+      >
+        7
+        <br />
+        26
+      </span>
+      <span
+        className="css-13vsjkj"
+        color="30"
+      >
+        8
+        <br />
+        30
+      </span>
+      <span
+        className="css-efi4wm"
+        color="41"
+      >
+        9
+        <br />
+        41
+      </span>
+      <span
+        className="css-t71n1"
+        color="57"
+      >
+        10
+        <br />
+        57
+      </span>
+      <span
+        className="css-ksz4vl"
+        color="24"
+      >
+        11
+        <br />
+        24
+      </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      fontWeights
+    </p>
+    <div
+      className="container"
+    >
+      <span
+        className="css-1xs88bu"
+        color="Light"
+      >
+        signika-0
+        <br />
+        Light
+      </span>
+      <span
+        className="css-1ap0x7g"
+        color="Medium"
+      >
+        signika-1
+        <br />
+        Medium
+      </span>
+      <span
+        className="css-1mlc3f0"
+        color="Regular"
+      >
+        signika-2
+        <br />
+        Regular
+      </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      fontSize
+    </p>
+    <div
+      className="container"
+    >
+      <span
+        className="css-swf1oy"
+        color="10"
+      >
+        0
+        <br />
+        10
+      </span>
+      <span
+        className="css-g1tfd0"
+        color="12"
+      >
+        1
+        <br />
+        12
+      </span>
+      <span
+        className="css-1a3co2d"
+        color="14"
+      >
+        2
+        <br />
+        14
+      </span>
+      <span
+        className="css-1cdgget"
+        color="16"
+      >
+        3
+        <br />
+        16
+      </span>
+      <span
+        className="css-u0mkls"
+        color="20"
+      >
+        4
+        <br />
+        20
+      </span>
+      <span
+        className="css-ksz4vl"
+        color="24"
+      >
+        5
+        <br />
+        24
+      </span>
+      <span
+        className="css-zmrcch"
+        color="34"
+      >
+        6
+        <br />
+        34
+      </span>
+      <span
+        className="css-kn0dx2"
+        color="48"
+      >
+        7
+        <br />
+        48
+      </span>
+      <span
+        className="css-ygsqfo"
+        color="60"
+      >
+        8
+        <br />
+        60
+      </span>
+      <span
+        className="css-eyotp5"
+        color="96"
+      >
+        9
+        <br />
+        96
+      </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      letterSpacing
+    </p>
+    <div
+      className="container"
+    >
+      <span
+        className="css-m0ht6e"
+        color="-1.5%"
+      >
+        0
+        <br />
+        -1.5%
+      </span>
+      <span
+        className="css-105ep2"
+        color="-0.5%"
+      >
+        1
+        <br />
+        -0.5%
+      </span>
+      <span
+        className="css-18dny5w"
+        color="0.5%"
+      >
+        2
+        <br />
+        0.5%
+      </span>
+      <span
+        className="css-rbob45"
+        color="0.25%"
+      >
+        3
+        <br />
+        0.25%
+      </span>
+      <span
+        className="css-1myf94i"
+        color="0%"
+      >
+        4
+        <br />
+        0%
+      </span>
+      <span
+        className="css-uprw9h"
+        color="0.4%"
+      >
+        5
+        <br />
+        0.4%
+      </span>
+      <span
+        className="css-1iir3f8"
+        color="1.5%"
+      >
+        6
+        <br />
+        1.5%
+      </span>
+      <span
+        className="css-zo2o8z"
+        color="0.1%"
+      >
+        7
+        <br />
+        0.1%
+      </span>
+      <span
+        className="css-z9v3wh"
+        color="0.15%"
+      >
+        8
+        <br />
+        0.15%
+      </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      paragraphSpacing
+    </p>
+    <div
+      className="container"
+    >
+      <span
+        className="css-1x5vl55"
+        color="0"
+      >
+        0
+        <br />
+        0
+      </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      textCase
+    </p>
+    <div
+      className="container"
+    >
+      <span
+        className="css-l7j6fn"
+        color="none"
+      >
+        none
+        <br />
+        none
+      </span>
+      <span
+        className="css-cj9bgs"
+        color="uppercase"
+      >
+        uppercase
+        <br />
+        uppercase
+      </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      textDecoration
+    </p>
+    <div
+      className="container"
+    >
+      <span
+        className="css-l7j6fn"
+        color="none"
+      >
+        none
+        <br />
+        none
+      </span>
+    </div>
+  </div>,
 ]
 `;
 

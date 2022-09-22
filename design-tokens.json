@@ -4,11 +4,11 @@
       "value": "#ffffff",
       "type": "color"
     },
-    "Dark": {
+    "Black": {
       "value": "#000000",
       "type": "color"
     },
-    "primary": {
+    "purple": {
       "50": {
         "value": "#f5e6fc",
         "type": "color",
@@ -123,10 +123,11 @@
         "type": "color"
       }
     },
-    "border-button-secondary": {
-      "value": "1",
-      "type": "borderWidth",
-      "description": "border button secondary"
+    "border": {
+      "border--1": {
+        "value": "1",
+        "type": "borderWidth"
+      }
     },
     "fontFamilies": {
       "signika": {
@@ -483,6 +484,158 @@
       }
     }
   },
+  "semantic": {
+    "primary": {
+      "50": {
+        "value": "{purple.50}",
+        "type": "color"
+      },
+      "100": {
+        "value": "{purple.100}",
+        "type": "color"
+      },
+      "200": {
+        "value": "{purple.200}",
+        "type": "color"
+      },
+      "300": {
+        "value": "{purple.300}",
+        "type": "color"
+      },
+      "400": {
+        "value": "{purple.400}",
+        "type": "color"
+      },
+      "500": {
+        "value": "{purple.500}",
+        "type": "color"
+      },
+      "600": {
+        "value": "{purple.600}",
+        "type": "color"
+      },
+      "700": {
+        "value": "{purple.700}",
+        "type": "color"
+      },
+      "800": {
+        "value": "{purple.800}",
+        "type": "color"
+      },
+      "900": {
+        "value": "{purple.900}",
+        "type": "color"
+      }
+    },
+    "surface": {
+      "light": {
+        "value": "{White}",
+        "type": "color"
+      },
+      "dark": {
+        "value": "{Black}",
+        "type": "color"
+      }
+    },
+    "padding": {
+      "padding-top-bottom--s": {
+        "value": "{s}",
+        "type": "spacing"
+      },
+      "padding-left-right--s": {
+        "value": "{s}",
+        "type": "spacing"
+      },
+      "padding-top-bottom--m": {
+        "value": "{m}",
+        "type": "spacing"
+      },
+      "padding-left-right--m": {
+        "value": "{base}",
+        "type": "spacing"
+      },
+      "padding-top--bottom-l": {
+        "value": "{base}",
+        "type": "spacing"
+      },
+      "padding-left-right--l": {
+        "value": "{l}",
+        "type": "spacing"
+      }
+    }
+  },
+  "components": {
+    "button": {
+      "button-primary__background--default": {
+        "value": "{primary.500}",
+        "type": "color"
+      },
+      "button-primary__background--hover": {
+        "value": "{primary.700}",
+        "type": "color"
+      },
+      "button-secondary__background--default": {
+        "value": "{surface.light}",
+        "type": "color"
+      },
+      "button-secondary__background--hover": {
+        "value": "{surface.dark}",
+        "type": "color"
+      },
+      "radius": {
+        "value": "{radius-small}",
+        "type": "borderRadius"
+      },
+      "border-secondary--default": {
+        "value": "{border.border--1}",
+        "type": "borderWidth"
+      },
+      "border-secondary--hover": {
+        "value": "{border.border--1}",
+        "type": "borderWidth"
+      },
+      "button-primary__text-color--default": {
+        "value": "{surface.light}",
+        "type": "color"
+      },
+      "button-primary__text-color-hover": {
+        "value": "{surface.light}",
+        "type": "color"
+      },
+      "button-secondary__text-color--default": {
+        "value": "{surface.dark}",
+        "type": "color"
+      },
+      "button-secondary__text-color--hover": {
+        "value": "{surface.light}",
+        "type": "color"
+      },
+      "padding-top-bottom--s": {
+        "value": "{padding.padding-top-bottom--s}",
+        "type": "spacing"
+      },
+      "padding-left-right--s": {
+        "value": "{padding.padding-left-right--s}",
+        "type": "spacing"
+      },
+      "padding-top-bottom--m": {
+        "value": "{padding.padding-top-bottom--m}",
+        "type": "spacing"
+      },
+      "padding-left-right--m": {
+        "value": "{padding.padding-left-right--m}",
+        "type": "spacing"
+      },
+      "padding-left-right--l": {
+        "value": "{padding.padding-left-right--l}",
+        "type": "spacing"
+      },
+      "padding-top-bottom--l": {
+        "value": "{padding.padding-top--bottom-l}",
+        "type": "spacing"
+      }
+    }
+  },
   "raking-core": {
     "color": {
       "verde": {
@@ -529,6 +682,8 @@
   "$metadata": {
     "tokenSetOrder": [
       "global",
+      "semantic",
+      "components",
       "raking-core",
       "raking-semantic",
       "raking-components"

@@ -53,13 +53,15 @@
     "radius": {
       "6": {
         "value": "6",
-        "type": "borderRadius"
+        "type": "borderRadius",
+        "unit": "pixel"
       }
     },
     "border": {
       "1": {
         "value": "1",
-        "type": "borderWidth"
+        "type": "borderWidth",
+        "unit": "pixel"
       }
     },
     "fontFamilies": {
@@ -69,53 +71,15 @@
       }
     },
     "lineHeights": {
-      "0": {
-        "value": "110",
-        "type": "lineHeights"
-      },
-      "1": {
-        "value": "70",
-        "type": "lineHeights"
-      },
-      "2": {
-        "value": "22",
-        "type": "lineHeights"
-      },
-      "3": {
-        "value": "19",
-        "type": "lineHeights"
-      },
       "4": {
         "value": "16",
-        "type": "lineHeights"
-      },
-      "5": {
-        "value": "17",
-        "type": "lineHeights"
-      },
-      "6": {
-        "value": "15",
-        "type": "lineHeights"
-      },
-      "7": {
-        "value": "26",
-        "type": "lineHeights"
-      },
-      "8": {
-        "value": "30",
-        "type": "lineHeights"
-      },
-      "9": {
-        "value": "41",
-        "type": "lineHeights"
-      },
-      "10": {
-        "value": "57",
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "unit": "pixel"
       },
       "11": {
         "value": "24",
-        "type": "lineHeights"
+        "type": "lineHeights",
+        "unit": "pixel"
       }
     },
     "fontWeights": {
@@ -125,89 +89,28 @@
       }
     },
     "fontSize": {
-      "0": {
-        "value": "10",
-        "type": "fontSizes"
-      },
-      "1": {
-        "value": "12",
-        "type": "fontSizes"
-      },
       "2": {
         "value": "14",
-        "type": "fontSizes"
-      },
-      "3": {
-        "value": "16",
-        "type": "fontSizes"
-      },
-      "4": {
-        "value": "20",
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "unit": "pixel"
       },
       "5": {
         "value": "24",
-        "type": "fontSizes"
-      },
-      "6": {
-        "value": "34",
-        "type": "fontSizes"
-      },
-      "7": {
-        "value": "48",
-        "type": "fontSizes"
-      },
-      "8": {
-        "value": "60",
-        "type": "fontSizes"
-      },
-      "9": {
-        "value": "96",
-        "type": "fontSizes"
+        "type": "fontSizes",
+        "unit": "pixel"
       }
     },
     "letterSpacing": {
-      "0": {
-        "value": "-1.5%",
-        "type": "letterSpacing"
-      },
-      "1": {
-        "value": "-0.5%",
-        "type": "letterSpacing"
-      },
-      "2": {
-        "value": "0.5%",
-        "type": "letterSpacing"
-      },
-      "3": {
-        "value": "0.25%",
-        "type": "letterSpacing"
-      },
       "4": {
         "value": "0%",
-        "type": "letterSpacing"
-      },
-      "5": {
-        "value": "0.4%",
-        "type": "letterSpacing"
-      },
-      "6": {
-        "value": "1.5%",
-        "type": "letterSpacing"
-      },
-      "7": {
-        "value": "0.1%",
-        "type": "letterSpacing"
-      },
-      "8": {
-        "value": "0.15%",
         "type": "letterSpacing"
       }
     },
     "paragraphSpacing": {
       "0": {
         "value": "0",
-        "type": "paragraphSpacing"
+        "type": "paragraphSpacing",
+        "unit": "pixel"
       }
     },
     "typography": {
@@ -257,7 +160,8 @@
     "spacing": {
       "base": {
         "value": "4",
-        "type": "spacing"
+        "type": "spacing",
+        "unit": "pixel"
       }
     }
   },
@@ -277,7 +181,7 @@
         "on": {
           "value": "{color.white}",
           "type": "color",
-          "description": "\"{semantic-name}.on\" means that this is meant to go on top of the value assigned to \"{semantic-name}\"."
+          "description": "--semantic-name--.on means that this is meant to go on top of the value assigned to --semantic-name--."
         }
       },
       "secondary": {
@@ -479,10 +383,6 @@
   },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": [
-      "topdone-core",
-      "topdone-semantic",
-      "topdone-components"
-    ]
+    "tokenSetOrder": ["topdone-core", "topdone-semantic", "topdone-components"]
   }
 }

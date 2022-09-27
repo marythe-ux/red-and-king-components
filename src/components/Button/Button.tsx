@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import css from '@emotion/css';
-import { tier3 } from '../../styles/theme';
+import { cssVariables } from '../../styles/theme';
 
 interface ButtonStyledProps {
   size?: 'small' | 'default' | 'large';
@@ -16,15 +16,15 @@ const styledPropHandler = {
     switch (color) {
       case 'secondary':
         return css`
-          box-shadow: ${tier3.button.boxShadow.secondary.default};
-          color: ${tier3.button.color.secondary.default};
-          background-color: ${tier3.button.background.secondary.default};
+          box-shadow: ${`inset 0px 0px 0px  ${cssVariables.topdoneComponentsBorderButtonSecondaryDefault}  ${cssVariables.topdoneComponentsColorBorderButtonSecondaryDefault}`};
+          color: ${cssVariables.topdoneComponentsColorTextButtonSecondaryDefault};
+          background-color: ${cssVariables.topdoneComponentsColorBackgroundButtonSecondaryDefault};
         `;
       case 'primary':
       default:
         return css`
-          color: ${tier3.button.color.primary.default};
-          background-color: ${tier3.button.background.primary.default};
+          color: ${cssVariables.topdoneComponentsColorBackgroundButtonPrimaryDefault};
+          background-color: ${cssVariables.topdoneComponentsColorTextButtonPrimaryDefault};
         `;
     }
   },
@@ -32,14 +32,13 @@ const styledPropHandler = {
     switch (color) {
       case 'secondary':
         return css`
-          color: ${tier3.button.color.secondary.hover};
-          background-color: ${tier3.button.background.secondary.hover};
+          color: ${cssVariables.topdoneComponentsColorTextButtonSecondaryHover};
+          background-color: ${cssVariables.topdoneComponentsColorBackgroundButtonSecondaryHover};
         `;
       case 'primary':
       default:
         return css`
-          color: ${tier3.button.color.primary.hover};
-          background-color: ${tier3.button.background.primary.hover};
+          background-color: ${cssVariables.topdoneComponentsColorBackgroundButtonPrimaryHover};
         `;
     }
   },
@@ -47,37 +46,30 @@ const styledPropHandler = {
     switch (size) {
       case 'small':
         return css`
-          font-size: 14px;
-          line-height: 16px;
-          padding: ${tier3.button.padding.small};
-          border-radius: ${tier3.button.borderRadius.small};
+          ${cssVariables.topdoneComponentsTypographyButtonMd}
+          padding: ${`${cssVariables.topdoneComponentsPaddingButtonSmallVertical} ${cssVariables.topdoneComponentsPaddingButtonSmallHorizontal}`};
+          border-radius: ${cssVariables.topdoneComponentsRadiusButton};
         `;
       case 'large':
         return css`
-          font-size: 24px;
-          line-height: 24px;
-          padding: ${tier3.button.padding.large};
-          border-radius: ${tier3.button.borderRadius.large};
+          ${cssVariables.topdoneComponentsTypographyButtonMd}
+          padding: ${`${cssVariables.topdoneComponentsPaddingButtonMediumVertical} ${cssVariables.topdoneComponentsPaddingButtonMediumHorizontal}`};
+          border-radius: ${cssVariables.topdoneComponentsRadiusButton};
         `;
       case 'default':
       default:
         return css`
-          font-size: 14px;
-          line-height: 16px;
-          padding: ${tier3.button.padding.default};
-          border-radius: ${tier3.button.borderRadius.default};
+          ${cssVariables.topdoneComponentsTypographyButtonLg}
+          padding: ${`${cssVariables.topdoneComponentsPaddingButtonLargeVertical} ${cssVariables.topdoneComponentsPaddingButtonLargeHorizontal}`};
+          border-radius: ${cssVariables.topdoneComponentsRadiusButton};
         `;
     }
   },
 };
 
 export const ButtonStyled = styled('button')<ButtonStyledProps>`
-  font-family: 'Signika';
-  border: 0;
-  border-radius: 3em;
   cursor: pointer;
   display: inline-block;
-  line-height: 1;
   transition: color 0.5s ease, background-color 0.5s ease;
   ${styledPropHandler.color}
   ${styledPropHandler.size}

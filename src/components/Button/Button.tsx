@@ -23,8 +23,8 @@ const styledPropHandler = {
       case 'primary':
       default:
         return css`
-          color: ${cssVariables.topdoneComponentsColorBackgroundButtonPrimaryDefault};
-          background-color: ${cssVariables.topdoneComponentsColorTextButtonPrimaryDefault};
+          color: ${cssVariables.topdoneComponentsColorTextButtonPrimaryDefault};
+          background-color: ${cssVariables.topdoneComponentsColorBackgroundButtonPrimaryDefault};
         `;
     }
   },
@@ -52,15 +52,15 @@ const styledPropHandler = {
         `;
       case 'large':
         return css`
-          ${cssVariables.topdoneComponentsTypographyButtonMd}
-          padding: ${`${cssVariables.topdoneComponentsPaddingButtonMediumVertical} ${cssVariables.topdoneComponentsPaddingButtonMediumHorizontal}`};
+          ${cssVariables.topdoneComponentsTypographyButtonLg}
+          padding: ${`${cssVariables.topdoneComponentsPaddingButtonLargeVertical} ${cssVariables.topdoneComponentsPaddingButtonLargeHorizontal}`};
           border-radius: ${cssVariables.topdoneComponentsRadiusButton};
         `;
       case 'default':
       default:
         return css`
-          ${cssVariables.topdoneComponentsTypographyButtonLg}
-          padding: ${`${cssVariables.topdoneComponentsPaddingButtonLargeVertical} ${cssVariables.topdoneComponentsPaddingButtonLargeHorizontal}`};
+          ${cssVariables.topdoneComponentsTypographyButtonMd}
+          padding: ${`${cssVariables.topdoneComponentsPaddingButtonMediumVertical} ${cssVariables.topdoneComponentsPaddingButtonMediumHorizontal}`};
           border-radius: ${cssVariables.topdoneComponentsRadiusButton};
         `;
     }
@@ -71,6 +71,7 @@ export const ButtonStyled = styled('button')<ButtonStyledProps>`
   cursor: pointer;
   display: inline-block;
   transition: color 0.5s ease, background-color 0.5s ease;
+  border: none;
   ${styledPropHandler.color}
   ${styledPropHandler.size}
   &:hover {

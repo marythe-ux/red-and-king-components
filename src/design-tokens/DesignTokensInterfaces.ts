@@ -2,6 +2,7 @@ export interface DesignTokensItem {
   value: any;
   type: string;
   description?: string;
+  unit?: string;
 }
 
 export interface DesignTokensItems {

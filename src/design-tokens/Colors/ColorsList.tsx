@@ -7,7 +7,7 @@ import {
 import ColorCard from './ColorCard';
 import ColorCardsList from './ColorCardsList';
 
-const colorData = designTokens.global as DesignTokensData;
+const colorData = designTokens['topdone-core'].color as DesignTokensData;
 
 const ColorsList = () => (
   <>

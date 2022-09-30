@@ -6,9 +6,18 @@
       "buildPath": "src/styles/",
       "files": [
         {
-          "destination": "token-variables.json",
+          "destination": "cssVariables.json",
           "format": "json/flat"
         }
+      ],
+      "transforms": [
+        "attribute/cti",
+        "calc/px",
+        "color/hex",
+        "name/cti/camel",
+        "size/px",
+        "size/rem",
+        "typography"
       ]
     }
   }

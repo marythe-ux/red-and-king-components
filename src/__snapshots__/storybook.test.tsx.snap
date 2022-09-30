@@ -4,7 +4,7 @@ exports[`Storyshots Components/Button Primary 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-1jspclt"
+    className="css-k7qccg"
     color="primary"
     type="button"
   >
@@ -17,7 +17,7 @@ exports[`Storyshots Components/Button Primary Large 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-wk8xrv"
+    className="css-10xixli"
     color="primary"
     size="large"
     type="button"
@@ -31,7 +31,7 @@ exports[`Storyshots Components/Button Primary Small 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-12jxjrj"
+    className="css-n4re35"
     color="primary"
     size="small"
     type="button"
@@ -45,7 +45,7 @@ exports[`Storyshots Components/Button Secondary 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-173wzs4"
+    className="css-1cf1tmc"
     color="secondary"
     type="button"
   >
@@ -58,7 +58,7 @@ exports[`Storyshots Components/Button Secondary Large 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-w0xuha"
+    className="css-733qo3"
     color="secondary"
     size="large"
     type="button"
@@ -72,7 +72,7 @@ exports[`Storyshots Components/Button Secondary Small 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-1qnafce"
+    className="css-1wszvnn"
     color="secondary"
     size="small"
     type="button"
@@ -94,7 +94,7 @@ Array [
     <p
       className="title"
     >
-      White
+      white
     </p>
     <div
       className="container"
@@ -103,7 +103,7 @@ Array [
         className="css-6x4xmh"
         color="#ffffff"
       >
-        White
+        white
         <br />
         #ffffff
       </span>
@@ -115,7 +115,7 @@ Array [
     <p
       className="title"
     >
-      Dark
+      black
     </p>
     <div
       className="container"
@@ -124,7 +124,7 @@ Array [
         className="css-1qn4u0p"
         color="#000000"
       >
-        Dark
+        black
         <br />
         #000000
       </span>
@@ -136,7 +136,7 @@ Array [
     <p
       className="title"
     >
-      primary
+      purple-50
     </p>
     <div
       className="container"
@@ -145,694 +145,200 @@ Array [
         className="css-y6gnpf"
         color="#f5e6fc"
       >
-        50
+        purple-50
         <br />
         #f5e6fc
       </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      purple-100
+    </p>
+    <div
+      className="container"
+    >
       <span
         className="css-wgyev"
         color="#e6bff9"
       >
-        100
+        purple-100
         <br />
         #e6bff9
       </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      purple-200
+    </p>
+    <div
+      className="container"
+    >
       <span
         className="css-18t54z7"
         color="#d694f6"
       >
-        200
+        purple-200
         <br />
         #d694f6
       </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      purple-300
+    </p>
+    <div
+      className="container"
+    >
       <span
         className="css-6f4yfg"
         color="#c566f3"
       >
-        300
+        purple-300
         <br />
         #c566f3
       </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      purple-400
+    </p>
+    <div
+      className="container"
+    >
       <span
         className="css-1vmzfxk"
         color="#b73ef0"
       >
-        400
+        purple-400
         <br />
         #b73ef0
       </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      purple-500
+    </p>
+    <div
+      className="container"
+    >
       <span
         className="css-vcepi0"
         color="#a800eb"
       >
-        500
+        purple-500
         <br />
         #a800eb
       </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      purple-600
+    </p>
+    <div
+      className="container"
+    >
       <span
         className="css-111wpt6"
         color="#9607e5"
       >
-        600
+        purple-600
         <br />
         #9607e5
       </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      purple-700
+    </p>
+    <div
+      className="container"
+    >
       <span
         className="css-1wesx5n"
         color="#7c0ade"
       >
-        700
+        purple-700
         <br />
         #7c0ade
       </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      purple-800
+    </p>
+    <div
+      className="container"
+    >
       <span
         className="css-13hzm5x"
         color="#630bd9"
       >
-        800
+        purple-800
         <br />
         #630bd9
       </span>
+    </div>
+  </div>,
+  <div
+    className="css-1mgahn1"
+  >
+    <p
+      className="title"
+    >
+      purple-900
+    </p>
+    <div
+      className="container"
+    >
       <span
         className="css-1ur9nty"
         color="#150dd2"
       >
-        900
+        purple-900
         <br />
         #150dd2
       </span>
     </div>
-  </div>,
-  <div
-    className="css-1mgahn1"
-  >
-    <p
-      className="title"
-    >
-      semantic
-    </p>
-    <div
-      className="container"
-    >
-      <span
-        className="css-2mfgsz"
-        color="#ff6000"
-      >
-        danger
-        <br />
-        #ff6000
-      </span>
-      <span
-        className="css-h1qvbb"
-        color="#39d090"
-      >
-        success
-        <br />
-        #39d090
-      </span>
-      <span
-        className="css-1sx3c64"
-        color="#eb3446"
-      >
-        error
-        <br />
-        #eb3446
-      </span>
-    </div>
-  </div>,
-  <div
-    className="css-1mgahn1"
-  >
-    <p
-      className="title"
-    >
-      secondary
-    </p>
-    <div
-      className="container"
-    >
-      <span
-        className="css-6x4xmh"
-        color="#ffffff"
-      >
-        light
-        <br />
-        #ffffff
-      </span>
-      <span
-        className="css-1qn4u0p"
-        color="#000000"
-      >
-        dark
-        <br />
-        #000000
-      </span>
-    </div>
-  </div>,
-  <div
-    className="css-1mgahn1"
-  >
-    <p
-      className="title"
-    >
-      fontFamilies
-    </p>
-    <div
-      className="container"
-    >
-      <span
-        className="css-1cahbea"
-        color="Signika"
-      >
-        signika
-        <br />
-        Signika
-      </span>
-    </div>
-  </div>,
-  <div
-    className="css-1mgahn1"
-  >
-    <p
-      className="title"
-    >
-      lineHeights
-    </p>
-    <div
-      className="container"
-    >
-      <span
-        className="css-1wlz7pd"
-        color="110"
-      >
-        0
-        <br />
-        110
-      </span>
-      <span
-        className="css-qu7gc7"
-        color="70"
-      >
-        1
-        <br />
-        70
-      </span>
-      <span
-        className="css-ba1amw"
-        color="22"
-      >
-        2
-        <br />
-        22
-      </span>
-      <span
-        className="css-1uxkuyb"
-        color="19"
-      >
-        3
-        <br />
-        19
-      </span>
-      <span
-        className="css-1cdgget"
-        color="16"
-      >
-        4
-        <br />
-        16
-      </span>
-      <span
-        className="css-14n5w4l"
-        color="17"
-      >
-        5
-        <br />
-        17
-      </span>
-      <span
-        className="css-1u6d6u2"
-        color="15"
-      >
-        6
-        <br />
-        15
-      </span>
-      <span
-        className="css-anxxxm"
-        color="26"
-      >
-        7
-        <br />
-        26
-      </span>
-      <span
-        className="css-13vsjkj"
-        color="30"
-      >
-        8
-        <br />
-        30
-      </span>
-      <span
-        className="css-efi4wm"
-        color="41"
-      >
-        9
-        <br />
-        41
-      </span>
-      <span
-        className="css-t71n1"
-        color="57"
-      >
-        10
-        <br />
-        57
-      </span>
-      <span
-        className="css-ksz4vl"
-        color="24"
-      >
-        11
-        <br />
-        24
-      </span>
-    </div>
-  </div>,
-  <div
-    className="css-1mgahn1"
-  >
-    <p
-      className="title"
-    >
-      fontWeights
-    </p>
-    <div
-      className="container"
-    >
-      <span
-        className="css-1xs88bu"
-        color="Light"
-      >
-        signika-0
-        <br />
-        Light
-      </span>
-      <span
-        className="css-1ap0x7g"
-        color="Medium"
-      >
-        signika-1
-        <br />
-        Medium
-      </span>
-      <span
-        className="css-1mlc3f0"
-        color="Regular"
-      >
-        signika-2
-        <br />
-        Regular
-      </span>
-    </div>
-  </div>,
-  <div
-    className="css-1mgahn1"
-  >
-    <p
-      className="title"
-    >
-      fontSize
-    </p>
-    <div
-      className="container"
-    >
-      <span
-        className="css-swf1oy"
-        color="10"
-      >
-        0
-        <br />
-        10
-      </span>
-      <span
-        className="css-g1tfd0"
-        color="12"
-      >
-        1
-        <br />
-        12
-      </span>
-      <span
-        className="css-1a3co2d"
-        color="14"
-      >
-        2
-        <br />
-        14
-      </span>
-      <span
-        className="css-1cdgget"
-        color="16"
-      >
-        3
-        <br />
-        16
-      </span>
-      <span
-        className="css-u0mkls"
-        color="20"
-      >
-        4
-        <br />
-        20
-      </span>
-      <span
-        className="css-ksz4vl"
-        color="24"
-      >
-        5
-        <br />
-        24
-      </span>
-      <span
-        className="css-zmrcch"
-        color="34"
-      >
-        6
-        <br />
-        34
-      </span>
-      <span
-        className="css-kn0dx2"
-        color="48"
-      >
-        7
-        <br />
-        48
-      </span>
-      <span
-        className="css-ygsqfo"
-        color="60"
-      >
-        8
-        <br />
-        60
-      </span>
-      <span
-        className="css-eyotp5"
-        color="96"
-      >
-        9
-        <br />
-        96
-      </span>
-    </div>
-  </div>,
-  <div
-    className="css-1mgahn1"
-  >
-    <p
-      className="title"
-    >
-      letterSpacing
-    </p>
-    <div
-      className="container"
-    >
-      <span
-        className="css-m0ht6e"
-        color="-1.5%"
-      >
-        0
-        <br />
-        -1.5%
-      </span>
-      <span
-        className="css-105ep2"
-        color="-0.5%"
-      >
-        1
-        <br />
-        -0.5%
-      </span>
-      <span
-        className="css-18dny5w"
-        color="0.5%"
-      >
-        2
-        <br />
-        0.5%
-      </span>
-      <span
-        className="css-rbob45"
-        color="0.25%"
-      >
-        3
-        <br />
-        0.25%
-      </span>
-      <span
-        className="css-1myf94i"
-        color="0%"
-      >
-        4
-        <br />
-        0%
-      </span>
-      <span
-        className="css-uprw9h"
-        color="0.4%"
-      >
-        5
-        <br />
-        0.4%
-      </span>
-      <span
-        className="css-1iir3f8"
-        color="1.5%"
-      >
-        6
-        <br />
-        1.5%
-      </span>
-      <span
-        className="css-zo2o8z"
-        color="0.1%"
-      >
-        7
-        <br />
-        0.1%
-      </span>
-      <span
-        className="css-z9v3wh"
-        color="0.15%"
-      >
-        8
-        <br />
-        0.15%
-      </span>
-    </div>
-  </div>,
-  <div
-    className="css-1mgahn1"
-  >
-    <p
-      className="title"
-    >
-      paragraphSpacing
-    </p>
-    <div
-      className="container"
-    >
-      <span
-        className="css-1x5vl55"
-        color="0"
-      >
-        0
-        <br />
-        0
-      </span>
-    </div>
-  </div>,
-  <div
-    className="css-1mgahn1"
-  >
-    <p
-      className="title"
-    >
-      textCase
-    </p>
-    <div
-      className="container"
-    >
-      <span
-        className="css-l7j6fn"
-        color="none"
-      >
-        none
-        <br />
-        none
-      </span>
-      <span
-        className="css-cj9bgs"
-        color="uppercase"
-      >
-        uppercase
-        <br />
-        uppercase
-      </span>
-    </div>
-  </div>,
-  <div
-    className="css-1mgahn1"
-  >
-    <p
-      className="title"
-    >
-      textDecoration
-    </p>
-    <div
-      className="container"
-    >
-      <span
-        className="css-l7j6fn"
-        color="none"
-      >
-        none
-        <br />
-        none
-      </span>
-    </div>
-  </div>,
-]
-`;
-
-exports[`Storyshots Design tokens/Spacing Spacing 1`] = `
-Array [
-  <GlobalStyles />,
-  <h1>
-    Design tokens spacing
-  </h1>,
-  <div
-    className="css-630khx"
-  >
-    <p
-      className="title"
-    >
-      xxs
-    </p>
-    <p
-      className="space"
-    />
-  </div>,
-  <div
-    className="css-plio13"
-  >
-    <p
-      className="title"
-    >
-      xs
-    </p>
-    <p
-      className="space"
-    />
-  </div>,
-  <div
-    className="css-bcf2m"
-  >
-    <p
-      className="title"
-    >
-      s
-    </p>
-    <p
-      className="space"
-    />
-  </div>,
-  <div
-    className="css-14it4ly"
-  >
-    <p
-      className="title"
-    >
-      m
-    </p>
-    <p
-      className="space"
-    />
-  </div>,
-  <div
-    className="css-fm0ppo"
-  >
-    <p
-      className="title"
-    >
-      base
-    </p>
-    <p
-      className="space"
-    />
-  </div>,
-  <div
-    className="css-zjesl3"
-  >
-    <p
-      className="title"
-    >
-      l
-    </p>
-    <p
-      className="space"
-    />
-  </div>,
-  <div
-    className="css-1mpunvi"
-  >
-    <p
-      className="title"
-    >
-      xl
-    </p>
-    <p
-      className="space"
-    />
-  </div>,
-  <div
-    className="css-1psdnd9"
-  >
-    <p
-      className="title"
-    >
-      xxl
-    </p>
-    <p
-      className="space"
-    />
-  </div>,
-  <div
-    className="css-cb5u1f"
-  >
-    <p
-      className="title"
-    >
-      xxxl
-    </p>
-    <p
-      className="space"
-    />
-  </div>,
-  <div
-    className="css-pm9xa5"
-  >
-    <p
-      className="title"
-    >
-      xxxxl
-    </p>
-    <p
-      className="space"
-    />
   </div>,
 ]
 `;

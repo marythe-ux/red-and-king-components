@@ -151,14 +151,7 @@
 <a name='L86'></a><a href='#L86'>86</a>
 <a name='L87'></a><a href='#L87'>87</a>
 <a name='L88'></a><a href='#L88'>88</a>
-<a name='L89'></a><a href='#L89'>89</a>
-<a name='L90'></a><a href='#L90'>90</a>
-<a name='L91'></a><a href='#L91'>91</a>
-<a name='L92'></a><a href='#L92'>92</a>
-<a name='L93'></a><a href='#L93'>93</a>
-<a name='L94'></a><a href='#L94'>94</a>
-<a name='L95'></a><a href='#L95'>95</a>
-<a name='L96'></a><a href='#L96'>96</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L89'></a><a href='#L89'>89</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -203,7 +196,6 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
@@ -212,9 +204,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -230,11 +220,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -255,7 +241,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import styled from '@emotion/styled';
 import css from '@emotion/css';
-import { tier3 } from '../../styles/theme';
+import { cssVariables } from '../../styles/theme';
 &nbsp;
 interface ButtonStyledProps {
   size?: 'small' | 'default' | 'large';
@@ -271,15 +257,15 @@ const styledPropHandler = {
     switch (color) {
       case 'secondary':
         return css`
-          box-shadow: ${tier3.button.boxShadow.secondary.default};
-          color: ${tier3.button.color.secondary.default};
-          background-color: ${tier3.button.background.secondary.default};
+          box-shadow: ${`inset 0px 0px 0px  ${cssVariables.topdoneComponentsBorderButtonSecondaryDefault}  ${cssVariables.topdoneComponentsColorBorderButtonSecondaryDefault}`};
+          color: ${cssVariables.topdoneComponentsColorTextButtonSecondaryDefault};
+          background-color: ${cssVariables.topdoneComponentsColorBackgroundButtonSecondaryDefault};
         `;
       case 'primary':
       default:
         return css`
-          color: ${tier3.button.color.primary.default};
-          background-color: ${tier3.button.background.primary.default};
+          color: ${cssVariables.topdoneComponentsColorTextButtonPrimaryDefault};
+          background-color: ${cssVariables.topdoneComponentsColorBackgroundButtonPrimaryDefault};
         `;
     }
   },
@@ -287,14 +273,13 @@ const styledPropHandler = {
     switch (color) {
       case 'secondary':
         return css`
-          color: ${tier3.button.color.secondary.hover};
-          background-color: ${tier3.button.background.secondary.hover};
+          color: ${cssVariables.topdoneComponentsColorTextButtonSecondaryHover};
+          background-color: ${cssVariables.topdoneComponentsColorBackgroundButtonSecondaryHover};
         `;
       case 'primary':
       default:
         return css`
-          color: ${tier3.button.color.primary.hover};
-          background-color: ${tier3.button.background.primary.hover};
+          background-color: ${cssVariables.topdoneComponentsColorBackgroundButtonPrimaryHover};
         `;
     }
   },
@@ -302,38 +287,32 @@ const styledPropHandler = {
     switch (size) {
       case 'small':
         return css`
-          font-size: 14px;
-          line-height: 16px;
-          padding: ${tier3.button.padding.small};
-          border-radius: ${tier3.button.borderRadius.small};
+          ${cssVariables.topdoneComponentsTypographyButtonMd}
+          padding: ${`${cssVariables.topdoneComponentsPaddingButtonSmallVertical} ${cssVariables.topdoneComponentsPaddingButtonSmallHorizontal}`};
+          border-radius: ${cssVariables.topdoneComponentsRadiusButton};
         `;
       case 'large':
         return css`
-          font-size: 24px;
-          line-height: 24px;
-          padding: ${tier3.button.padding.large};
-          border-radius: ${tier3.button.borderRadius.large};
+          ${cssVariables.topdoneComponentsTypographyButtonLg}
+          padding: ${`${cssVariables.topdoneComponentsPaddingButtonLargeVertical} ${cssVariables.topdoneComponentsPaddingButtonLargeHorizontal}`};
+          border-radius: ${cssVariables.topdoneComponentsRadiusButton};
         `;
 <span class="branch-2 cbranch-no" title="branch not covered" >      case 'default':</span>
       default:
         return css`
-          font-size: 14px;
-          line-height: 16px;
-          padding: ${tier3.button.padding.default};
-          border-radius: ${tier3.button.borderRadius.default};
+          ${cssVariables.topdoneComponentsTypographyButtonMd}
+          padding: ${`${cssVariables.topdoneComponentsPaddingButtonMediumVertical} ${cssVariables.topdoneComponentsPaddingButtonMediumHorizontal}`};
+          border-radius: ${cssVariables.topdoneComponentsRadiusButton};
         `;
     }
   },
 };
 &nbsp;
 export const ButtonStyled = styled('button')&lt;ButtonStyledProps&gt;`
-  font-family: 'Signika';
-  border: 0;
-  border-radius: 3em;
   cursor: pointer;
   display: inline-block;
-  line-height: 1;
   transition: color 0.5s ease, background-color 0.5s ease;
+  border: none;
   ${styledPropHandler.color}
   ${styledPropHandler.size}
   &amp;:hover {
@@ -355,7 +334,7 @@ export default Button;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Thu Sep 15 2022 01:53:45 GMT+0000 (Coordinated Universal Time)
+                at Fri Sep 30 2022 22:40:25 GMT+0000 (Coordinated Universal Time)
             </div>
         <script src="../../prettify.js"></script>
         <script>

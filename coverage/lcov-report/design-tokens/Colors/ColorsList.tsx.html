@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">54.54% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>11/11</span>
+                <span class='fraction'>6/11</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">16.66% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>6/6</span>
+                <span class='fraction'>1/6</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">66.66% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>3/3</span>
+                <span class='fraction'>2/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">54.54% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>11/11</span>
+                <span class='fraction'>6/11</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -131,9 +131,9 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">39x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -144,24 +144,24 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">37x</span>
-<span class="cline-any cline-yes">11x</span>
-<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">54x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">26x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -176,14 +176,14 @@ import {
 import ColorCard from './ColorCard';
 import ColorCardsList from './ColorCardsList';
 &nbsp;
-const colorData = designTokens.global as DesignTokensData;
+const colorData = designTokens['topdone-core'].color as DesignTokensData;
 &nbsp;
 const ColorsList = () =&gt; (
   &lt;&gt;
     &lt;h1&gt;Design tokens colors&lt;/h1&gt;
 &nbsp;
     {Object.entries(colorData).map(([colorName, value], index) =&gt; {
-      if (value.type === 'color') {
+      <span class="missing-if-branch" title="else path not taken" >E</span>if (value.type === 'color') {
         const colorDataItem = value as DesignTokensItem;
         return (
           &lt;ColorCardsList colorName={colorName} key={index}&gt;
@@ -196,13 +196,13 @@ const ColorsList = () =&gt; (
         );
       }
 &nbsp;
-      if (value.type == null || Object.values(value)[0].type === 'color') {
-        const colorDataItems = value as DesignTokensItems;
-        return (
+<span class="cstat-no" title="statement not covered" >      if (value.type == null || Object.values(value)[0].type === 'color') {</span>
+        const colorDataItems = <span class="cstat-no" title="statement not covered" >value as DesignTokensItems;</span>
+<span class="cstat-no" title="statement not covered" >        return (</span>
           &lt;ColorCardsList colorName={colorName} key={index}&gt;
             {Object.entries(colorDataItems).map(
-              ([colorKey, colorDataItem], index) =&gt; (
-                &lt;ColorCard color={colorDataItem.value} key={index}&gt;
+<span class="fstat-no" title="function not covered" >              ([</span>colorKey, colorDataItem], index) =&gt; (
+<span class="cstat-no" title="statement not covered" >                &lt;ColorCard color={colorDataItem.value} key={index}&gt;</span>
                   {colorKey}
                   &lt;br /&gt;
                   {colorDataItem.value}
@@ -213,7 +213,7 @@ const ColorsList = () =&gt; (
         );
       }
 &nbsp;
-      return null;
+<span class="cstat-no" title="statement not covered" >      return null;</span>
     })}
   &lt;/&gt;
 );
@@ -226,7 +226,7 @@ export default ColorsList;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Thu Sep 15 2022 01:53:45 GMT+0000 (Coordinated Universal Time)
+                at Fri Sep 30 2022 22:40:25 GMT+0000 (Coordinated Universal Time)
             </div>
         <script src="../../prettify.js"></script>
         <script>

@@ -12149,10 +12149,10 @@ recursive-readdir@^2.2.2:
   dependencies:
     minimatch "3.0.4"
 
-red-and-king-components-tokens@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/red-and-king-components-tokens/-/red-and-king-components-tokens-0.1.1.tgz#eaf70dc8e43e1b903c08c4f3400805bc5f3c3e36"
-  integrity sha512-qVCATY2WnLlv9w1XcKQhaorGg8agWfv+uni/6JvWQcovKWscgadsk0uvaANtIR1ZgE9FviEWGCxzAagU2RBuIA==
+red-and-king-components-tokens@0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/red-and-king-components-tokens/-/red-and-king-components-tokens-0.1.2.tgz#9267d4f02c0114dcbed7cc3911c73913982a7f60"
+  integrity sha512-CJVwIRVMt7B8aeI+aEj34EXi8IbRA3fFZoWOTY7jc/P0IjhA7JG1gqPCAD3AZ5Q24D9mJvolDk+klixKK0Ta6g==
   dependencies:
     change-case "^4.1.2"
 

@@ -1,4 +1,4 @@
-import designTokens from '../../../design-tokens.json';
+import designTokens from 'red-and-king-components-tokens/dist/design-tokens.json';
 import {
   DesignTokensData,
   DesignTokensItem,

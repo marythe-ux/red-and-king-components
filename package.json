@@ -45,7 +45,7 @@
     "react-dom": "18.0.0",
     "react-scripts": "5.0.1",
     "react-test-renderer": "16.8.6",
-    "red-and-king-components-tokens": "0.1.1",
+    "red-and-king-components-tokens": "0.1.2",
     "typescript": "4.6.3"
   },
   "browserslist": [
@@ -63,6 +63,7 @@
     "README.md"
   ],
   "scripts": {
+    "update-tokens": "yarn add red-and-king-components-tokens -D --exact",
     "build-storybook": "rm -rf ./docs/storybook && build-storybook -o ./docs/storybook",
     "build": "rm -rf ./dist && tsc -p ./tsconfig-build.json",
     "dist": "yarn build && yarn pack",

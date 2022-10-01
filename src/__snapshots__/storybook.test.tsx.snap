@@ -4,7 +4,7 @@ exports[`Storyshots Components/Button Primary 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-k7qccg"
+    className="css-1iq1ln5"
     color="primary"
     type="button"
   >
@@ -17,7 +17,7 @@ exports[`Storyshots Components/Button Primary Large 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-10xixli"
+    className="css-1uxz576"
     color="primary"
     size="large"
     type="button"
@@ -31,7 +31,7 @@ exports[`Storyshots Components/Button Primary Small 1`] = `
 Array [
   <GlobalStyles />,
   <button
-    className="css-n4re35"
+    className="css-1bwi213"
     color="primary"
     size="small"
     type="button"
@@ -247,12 +247,12 @@ Array [
       className="container"
     >
       <span
-        className="css-vcepi0"
-        color="#a800eb"
+        className="css-o140du"
+        color="#eb6f00"
       >
         purple-500
         <br />
-        #a800eb
+        #eb6f00
       </span>
     </div>
   </div>,

@@ -33,7 +33,7 @@ const ColorsList = () => (
           <ColorCardsList colorName={colorName} key={index}>
             {Object.entries(colorDataItems).map(
               ([colorKey, colorDataItem], index) => (
-                <ColorCard color={colorDataItem.value} key={index}>
+                <ColorCard color={colorDataItem.value as string} key={index}>
                   {colorKey}
                   <br />
                   {colorDataItem.value}

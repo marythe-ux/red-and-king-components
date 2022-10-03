@@ -1,6 +1,6 @@
 import { Global, css } from '@emotion/react';
 
-const styles = css`
+const globalCss = css`
   @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 
   body {
@@ -10,6 +10,6 @@ const styles = css`
   }
 `;
 
-const GlobalStyles = () => <Global styles={styles} />;
+const GlobalStyles = () => <Global styles={globalCss} />;
 
 export default GlobalStyles;

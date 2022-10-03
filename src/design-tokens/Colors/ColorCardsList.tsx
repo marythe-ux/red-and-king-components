@@ -1,11 +1,10 @@
-import styled from '@emotion/styled';
-
+import { css } from '@emotion/css';
 interface ColorCardsListProps {
   colorName: string;
   children: React.ReactNode;
 }
 
-const ColorCardsListStyled = styled('div')`
+const cssClassName = css`
   align-items: center;
   padding: 4px;
   margin: 0 10px;
@@ -24,10 +23,10 @@ const ColorCardsListStyled = styled('div')`
 `;
 
 const ColorCardsList = ({ colorName, children }: ColorCardsListProps) => (
-  <ColorCardsListStyled>
+  <div className={cssClassName}>
     <p className="title">{colorName}</p>
     <div className="container">{children}</div>
-  </ColorCardsListStyled>
+  </div>
 );
 
 export default ColorCardsList;

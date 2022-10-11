@@ -1,0 +1,36 @@
+import Icon, { getCssFillClassName } from '../Icon';
+import IconProps from '../IconProps';
+
+const IconReportOff = ({ className, color }: IconProps) => {
+  const cssFillClassName = getCssFillClassName(color);
+
+  return (
+    <Icon
+      svg={
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className={className}
+        >
+          <g clip-path="url(#clip0_433_201)">
+            <path
+              className={cssFillClassName}
+              d="M11 6.99997H13V9.91997L19.91 16.83L21 15.73V8.26997L15.73 2.99997H8.27L7.18 4.09997L11 7.91997V6.99997ZM22.27 21.73L2.27 1.71997L1 2.98997L4.64 6.62997L3 8.26997V15.73L8.27 21H15.73L17.37 19.37L21 23L22.27 21.73ZM12 17.3C11.28 17.3 10.7 16.72 10.7 16C10.7 15.28 11.28 14.7 12 14.7C12.72 14.7 13.3 15.28 13.3 16C13.3 16.72 12.72 17.3 12 17.3Z"
+              fill="black"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_433_201">
+              <rect width="24" height="24" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      }
+    />
+  );
+};
+
+export default IconReportOff;
